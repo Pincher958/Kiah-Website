@@ -545,7 +545,9 @@ footer p,
 /* Make images clickable */
 img[data-gallery] {
 	cursor: pointer;
-	transition: transform 0.2s ease, filter 0.2s ease;
+	transition:
+		transform 0.2s ease,
+		filter 0.2s ease;
 	width: 100%;
 	height: auto;
 	border-radius: 4px;
