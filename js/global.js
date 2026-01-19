@@ -52,6 +52,24 @@ function setupHamburgerMenu() {
 
 document.addEventListener("DOMContentLoaded", setupHamburgerMenu);
 
+// Text box scroll behavior for home page
+function setupTextBoxScroll() {
+	const textBox = document.querySelector(".text-box-container");
+	if (!textBox) return;
+
+	const initialTop = textBox.offsetTop;
+
+	window.addEventListener("scroll", function () {
+		if (window.scrollY > initialTop) {
+			textBox.classList.add("scrolled");
+		} else {
+			textBox.classList.remove("scrolled");
+		}
+	});
+}
+
+document.addEventListener("DOMContentLoaded", setupTextBoxScroll);
+
 // Navigate to place function
 function navigateToPlace(url) {
 	if (url) {
