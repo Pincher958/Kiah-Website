@@ -1,0 +1,5 @@
+/* Azores Place Page */
+body.routes-page {
+	background: url("../Images/Azores/azores.jpg") no-repeat center center fixed;
+	background-size: cover;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>The Atlantic</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/routes.css" />
+		<link rel="stylesheet" href="css/routes-atlantic.css" />
+		<script src="js/global.js" defer></script>
+		<script src="js/lightbox.js" defer></script>
+	</head>
+	<body class="routes-page">
+		<div id="header"></div>
+
+		<div class="route-section">
+			<h1>The Atlantic</h1>
+
+			<div class="places-dropdown-container">
+				<label for="places-select" class="places-label">Visit a Place:</label>
+				<select
+					id="places-select"
+					class="places-dropdown"
+					onchange="navigateToPlace(this.value)"
+				>
+					<option value="">-- Select a place --</option>
+					<option value="place-canary-islands.html">Canary Islands</option>
+					<option value="place-azores.html">Azores</option>
+					<option value="place-trinidad-tobago.html">Trinidad & Tobago</option>
+				</select>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+
+		<script>
+			function navigateToPlace(url) {
+				if (url) {
+					window.location.href = url;
+				}
+			}
+		</script>
+	</body>
+</html>

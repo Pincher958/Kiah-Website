@@ -1,0 +1,6 @@
+/* Falmouth Place Page */
+body.routes-page {
+	background: url("../Images/Falmouth/falmouth.jpg") no-repeat center center
+		fixed;
+	background-size: cover;
+}

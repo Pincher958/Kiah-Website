@@ -1,0 +1,6 @@
+/* Guadiana River Place Page */
+body.routes-page {
+	background: url("../Images/Guadiana/Guad57.JPG") no-repeat center center
+		fixed;
+	background-size: cover;
+}

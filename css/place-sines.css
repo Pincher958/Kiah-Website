@@ -1,0 +1,5 @@
+/* Sines Place Page */
+body.routes-page {
+	background: url("../Images/Sines/sines.jpg") no-repeat center center fixed;
+	background-size: cover;
+}

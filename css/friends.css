@@ -1,0 +1,9 @@
+header, footer {
+  background-color: #123456; /* match your header */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+

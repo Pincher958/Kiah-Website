@@ -1,0 +1,261 @@
+body {
+	background: url("../Images/Atlantic/North Atlantic 1.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+/* Routes navigation buttons */
+.routes-nav {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 30px 20px;
+	flex-wrap: wrap;
+}
+
+.route-button {
+	display: inline-block;
+	padding: 15px 30px;
+	background: rgba(18, 52, 86, 0.9);
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	border: 2px solid darkgoldenrod;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.route-button:hover {
+	background: rgba(18, 52, 86, 1);
+	transform: scale(1.05);
+	box-shadow: 0 4px 12px rgba(184, 134, 11, 0.4);
+}
+
+.route-button:active {
+	transform: scale(0.98);
+}
+
+/* Route section styling */
+.route-section {
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.route-section h1 {
+	color: white;
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Places dropdown container */
+.places-dropdown-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+}
+
+.places-label {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.places-dropdown {
+	padding: 12px 15px;
+	font-size: 1rem;
+	background: rgba(255, 255, 255, 0.95);
+	color: #333;
+	border: 2px solid darkgoldenrod;
+	border-radius: 6px;
+	cursor: pointer;
+	min-width: 250px;
+	transition: all 0.3s ease;
+	font-weight: 500;
+}
+
+.places-dropdown:hover {
+	background: white;
+	box-shadow: 0 4px 12px rgba(184, 134, 11, 0.3);
+}
+
+.places-dropdown:focus {
+	outline: none;
+	background: white;
+	box-shadow: 0 0 8px rgba(184, 134, 11, 0.6);
+}
+
+.places-dropdown option {
+	padding: 10px;
+	background: white;
+	color: #333;
+}
+
+/* Place page styling */
+.place-page {
+	padding: 30px 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.place-header {
+	text-align: center;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.place-header h1 {
+	color: white;
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.back-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background: rgba(184, 134, 11, 0.9);
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	border: 1px solid darkgoldenrod;
+}
+
+.back-button:hover {
+	background: rgba(184, 134, 11, 1);
+	transform: scale(1.05);
+	box-shadow: 0 4px 12px rgba(184, 134, 11, 0.4);
+}
+
+/* Place content layout */
+.place-content {
+	display: flex;
+	gap: 40px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.place-text {
+	flex: 1;
+	min-width: 300px;
+	background: rgba(255, 255, 255, 0.95);
+	padding: 25px;
+	border-radius: 8px;
+	border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.place-text h2 {
+	color: #123456;
+	margin-bottom: 15px;
+	font-size: 1.8rem;
+}
+
+.place-text p {
+	color: #333;
+	line-height: 1.6;
+	font-size: 1rem;
+	margin-bottom: 15px;
+}
+
+.place-images {
+	flex: 1;
+	min-width: 300px;
+}
+
+.place-images .gallery-grid {
+	gap: 20px;
+}
+
+/* Place page two-column layout */
+.place-columns {
+	display: flex;
+	gap: 40px;
+	padding: 20px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.place-column-left {
+	flex: 0 0 auto;
+	width: 45%;
+	background: rgba(255, 255, 255, 0.95);
+	padding: 25px;
+	border-radius: 8px;
+	border: 5px solid darkgoldenrod;
+	height: fit-content;
+	position: sticky;
+	top: 80px;
+	max-height: calc(100vh - 100px);
+	overflow-y: hidden;
+}
+
+.place-column-left h2 {
+	color: #123456;
+	margin-bottom: 15px;
+	font-size: 1.8rem;
+}
+
+.place-column-left p {
+	color: #333;
+	line-height: 1.6;
+	font-size: 1rem;
+	margin-bottom: 15px;
+}
+
+.place-column-right {
+	flex: 1;
+	min-width: 300px;
+	max-height: calc(100vh - 120px);
+	overflow-y: auto;
+	padding-right: 10px;
+	border: 5px solid darkgoldenrod;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.place-column-right::-webkit-scrollbar {
+	width: 8px;
+}
+
+.place-column-right::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+}
+
+.place-column-right::-webkit-scrollbar-thumb {
+	background: darkgoldenrod;
+	border-radius: 10px;
+}
+
+.place-column-right::-webkit-scrollbar-thumb:hover {
+	background: #b8860b;
+}
+
+/* Mobile responsive for place columns */
+@media (max-width: 1100px) {
+	.place-columns {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.place-column-left {
+		width: 100%;
+		position: relative;
+		top: 0;
+		max-height: none;
+		overflow-y: auto;
+		sticky: initial;
+	}
+
+	.place-column-right {
+		max-height: none;
+		overflow-y: auto;
+	}
+}

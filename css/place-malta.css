@@ -1,0 +1,5 @@
+/* Malta Place Page */
+body.routes-page {
+	background: url("../Images/Malta/Valetta.jpg") no-repeat center center fixed;
+	background-size: cover;
+}

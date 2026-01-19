@@ -1,0 +1,5 @@
+/* Cascais Place Page */
+body.routes-page {
+	background: url("../Images/Cascais/cascais.jpg") no-repeat center center fixed;
+	background-size: cover;
+}

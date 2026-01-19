@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups and copies
+*copy*
+*backup*
+*.bak
+Kiah website usb copy 1.0/
+
+# Large video files (exceed GitHub 100MB limit)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+
+# Node modules (if using any)
+node_modules/

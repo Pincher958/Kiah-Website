@@ -1,0 +1,6 @@
+/* Canary Islands Place Page */
+body.routes-page {
+	background: url("../Images/Gran\ Tarajal/canary-islands.jpg") no-repeat center
+		center fixed;
+	background-size: cover;
+}

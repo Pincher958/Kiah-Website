@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>UK to the Mediterranean</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/routes.css" />
+		<link rel="stylesheet" href="css/routes-uk-med.css" />
+		<script src="js/global.js" defer></script>
+		<script src="js/lightbox.js" defer></script>
+	</head>
+	<body class="routes-page">
+		<div id="header"></div>
+
+		<div class="route-section">
+			<h1>UK to the Mediterranean</h1>
+
+			<div class="places-dropdown-container">
+				<label for="places-select" class="places-label">Visit a Place:</label>
+				<select
+					id="places-select"
+					class="places-dropdown"
+					onchange="navigateToPlace(this.value)"
+				>
+					<option value="">-- Select a place --</option>
+					<option value="place-dover.html">Dover</option>
+					<option value="place-portsmouth.html">Portsmouth</option>
+					<option value="place-plymouth.html">Plymouth</option>
+					<option value="place-falmouth.html">Falmouth</option>
+					<option value="place-brest.html">Brest</option>
+					<option value="place-concarneau.html">Concarneau</option>
+					<option value="place-lisbon.html">Lisbon</option>
+					<option value="place-cascais.html">Cascais</option>
+					<option value="place-sines.html">Sines</option>
+					<option value="place-guadiana-river.html">Guadiana River</option>
+					<option value="place-rota.html">Rota</option>
+					<option value="place-barbate.html">Barbate</option>
+				</select>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+
+		<script>
+			function navigateToPlace(url) {
+				if (url) {
+					window.location.href = url;
+				}
+			}
+		</script>
+	</body>
+</html>
