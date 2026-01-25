@@ -126,7 +126,7 @@ body.routes-page {
 .vl {
 	border-left: 2px solid #fff;
 	margin: 0 20px;
-	min-height: 500px;
+	align-self: stretch;
 }
 
 /* Right Column - Content */

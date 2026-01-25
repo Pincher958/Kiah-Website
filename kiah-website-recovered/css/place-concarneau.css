@@ -4,3 +4,189 @@ body.routes-page {
 		center fixed;
 	background-size: cover;
 }
+
+/* Place Page Styles */
+.place-page {
+	width: 80vw;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.place-header {
+	background: url("../Images/backgrounds/Back (19).webp") no-repeat center
+		center;
+	background-size: 100% 100%;
+	padding: 30px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.place-header h1 {
+	color: white;
+	font-size: 2.5rem;
+	margin: 0;
+	text-shadow:
+		2px 2px 8px black,
+		0 0 10px black,
+		0 0 20px black;
+}
+
+.back-button {
+	background-color: rgba(255, 255, 255, 0.2);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	border: 2px solid white;
+	transition: all 0.3s ease;
+}
+
+.back-button:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+	transform: translateX(-5px);
+}
+
+/* Jumbotron Section */
+.jumbotron {
+	background: url("../Images/backgrounds/Back (19).webp") center center;
+	background-size: cover;
+	padding: 30px;
+	border-radius: 10px;
+	border: 4px solid white;
+	margin-bottom: 20px;
+}
+
+.jumbotron h2 {
+	color: white;
+	font-size: 2.5rem;
+	margin: 0 0 20px 0;
+	text-align: center;
+	text-shadow:
+		2px 2px 8px black,
+		0 0 10px black,
+		0 0 20px black;
+}
+
+.jumbotron-text {
+	color: white;
+	font-size: 1.1rem;
+	line-height: 1.8;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 36em;
+	text-shadow: 1px 1px 4px black;
+}
+
+/* Gallery Container */
+.lads-container {
+	background: url("../Images/backgrounds/Back (19).webp") center center;
+	background-size: cover;
+	padding: 30px;
+	border-radius: 10px;
+	border: 4px solid white;
+}
+
+.gallery-section {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.gallery-title {
+	color: white;
+	font-size: 2rem;
+	margin: 0;
+	text-align: center;
+	text-shadow:
+		2px 2px 8px black,
+		0 0 10px black,
+		0 0 20px black;
+}
+
+/* Concarneau Gallery - 4 columns grid */
+.concarneau-gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 200px);
+	gap: 20px;
+	justify-content: center;
+	align-items: start;
+}
+
+/* Image Box */
+.lads-image-box {
+	width: 200px;
+	height: 200px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	position: relative;
+}
+
+.lads-image-box:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-color: rgba(255, 255, 255, 0.6);
+}
+
+.lads-image-box img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+	display: block;
+}
+
+.lads-image-box img:hover {
+	transform: scale(1.1);
+}
+
+/* Rotate images in thumbnails */
+.lads-image-box img.rotate-90 {
+	transform: rotate(90deg);
+}
+
+/* Combine rotation and hover scale for rotated images */
+.lads-image-box img.rotate-90:hover {
+	transform: rotate(90deg) scale(1.1);
+}
+
+/* Empty image boxes (when no src) */
+.lads-image-box img:not([src]),
+.lads-image-box img[src=""] {
+	display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1400px) {
+	.concarneau-gallery {
+		grid-template-columns: repeat(3, 200px);
+	}
+}
+
+@media (max-width: 1000px) {
+	.concarneau-gallery {
+		grid-template-columns: repeat(2, 200px);
+	}
+}
+
+@media (max-width: 600px) {
+	.concarneau-gallery {
+		grid-template-columns: 1fr;
+	}
+
+	.lads-image-box {
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+}

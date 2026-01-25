@@ -1,0 +1,61 @@
+/* GLightbox Custom Styling for Kiah Website */
+
+/* Override GLightbox default colors to match site theme */
+.glightbox-clean .gslide-description {
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 15px;
+}
+
+.glightbox-clean .gslide-title {
+	color: goldenrod;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.glightbox-clean .gclose,
+.glightbox-clean .gnext,
+.glightbox-clean .gprev {
+	color: white;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+}
+
+.glightbox-clean .gclose:hover,
+.glightbox-clean .gnext:hover,
+.glightbox-clean .gprev:hover {
+	background: rgba(218, 165, 32, 0.8);
+}
+
+/* Zoom controls */
+.glightbox-clean .gzoom-in,
+.glightbox-clean .gzoom-out {
+	color: white;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+/* Counter styling */
+.glightbox-clean .gslide-inline .gslide-media,
+.glightbox-clean .gslide-image .gslide-media {
+	max-height: 90vh;
+}
+
+/* Make images clickable */
+img[data-gallery] {
+	cursor: pointer;
+	transition: opacity 0.3s ease;
+}
+
+img[data-gallery]:hover {
+	opacity: 0.9;
+}
+
+/* Rotate specific images 90 degrees clockwise in both thumbnail and lightbox */
+img.rotate-90 {
+	transform: rotate(90deg);
+}
+
+/* Apply rotation to images in GLightbox lightbox */
+.gslide-image img.rotate-90 {
+	transform: rotate(90deg);
+}
