@@ -44,10 +44,6 @@ function createLightboxHTML() {
                     <p id="lightbox-caption" class="lightbox-caption"></p>
                     <p id="lightbox-counter" class="lightbox-counter"></p>
                 </div>
-                <div class="lightbox-comments">
-                    <textarea id="lightbox-comments" class="lightbox-comment-box" placeholder="Add your comments about this image..."></textarea>
-                    <button onclick="saveImageComment()" class="lightbox-save-btn">Save Comment</button>
-                </div>
             </div>
         </div>
     `;
@@ -59,7 +55,6 @@ function createLightboxHTML() {
 let currentGallery = null;
 let currentImageIndex = 0;
 let galleryImages = [];
-let imageComments = {}; // Store comments per image
 
 function openLightbox(imgElement) {
 	const gallery = imgElement.getAttribute("data-gallery");
@@ -70,9 +65,6 @@ function openLightbox(imgElement) {
 	);
 	currentImageIndex = galleryImages.indexOf(imgElement);
 	currentGallery = gallery;
-
-	// Load comments from localStorage
-	loadImageComments();
 
 	showCurrentImage();
 
@@ -88,7 +80,6 @@ function showCurrentImage() {
 	const lightboxImg = document.getElementById("lightbox-image");
 	const captionEl = document.getElementById("lightbox-caption");
 	const counterEl = document.getElementById("lightbox-counter");
-	const commentsEl = document.getElementById("lightbox-comments");
 
 	// Set image and caption
 	// Use data-full for full-size image if available (for thumbnails), otherwise use src
@@ -102,11 +93,6 @@ function showCurrentImage() {
 
 	// Show counter
 	counterEl.textContent = `${currentImageIndex + 1} / ${galleryImages.length}`;
-
-	// Load or initialize comments for this image
-	const imgKey = `${currentGallery}_${currentImageIndex}`;
-	commentsEl.value = imageComments[imgKey] || "";
-	commentsEl.dataset.key = imgKey;
 
 	// Update button states
 	updateButtonStates();
@@ -152,30 +138,6 @@ function closeLightbox() {
 	overlay.classList.remove("active");
 	document.body.style.overflow = "auto"; // Restore page scrolling
 	galleryImages = [];
-}
-
-function saveImageComment() {
-	const commentsEl = document.getElementById("lightbox-comments");
-	const key = commentsEl.dataset.key;
-	imageComments[key] = commentsEl.value;
-
-	// Save to localStorage
-	localStorage.setItem("kiahImageComments", JSON.stringify(imageComments));
-
-	// Show confirmation
-	const btn = document.querySelector(".lightbox-save-btn");
-	const originalText = btn.textContent;
-	btn.textContent = "Comment Saved!";
-	setTimeout(() => {
-		btn.textContent = originalText;
-	}, 2000);
-}
-
-function loadImageComments() {
-	const saved = localStorage.getItem("kiahImageComments");
-	if (saved) {
-		imageComments = JSON.parse(saved);
-	}
 }
 
 // Close lightbox when clicking the close button
