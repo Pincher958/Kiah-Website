@@ -1,7 +1,7 @@
 /* Messdecks Page - HMS Eagle */
 body.routes-page {
 	/* CUSTOMIZE: Change the background image path below */
-	background: url("../Images/Eagle/Eagle\ leaving\ Guz.jpeg") no-repeat center
+	background: url("../Images/Eagle/Eagle leaving Guz.jpeg") no-repeat center
 		center fixed;
 	background-size: cover;
 }
@@ -52,7 +52,7 @@ body.routes-page {
 .place-columns {
 	display: flex;
 	gap: 20px;
-	background: url("../Images/backgrounds/Back\ (19).jpg") center center;
+	background: url("../Images/backgrounds/Back (19).jpg") center center;
 	background-size: cover;
 	padding: 30px;
 	border-radius: 10px;
