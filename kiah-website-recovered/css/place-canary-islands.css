@@ -1,0 +1,6 @@
+/* Canary Islands Place Page */
+body.routes-page {
+	background: url("../Images/Canary Islands/Map-of-the-Canaries.jpg") no-repeat center
+		center fixed;
+	background-size: cover;
+}

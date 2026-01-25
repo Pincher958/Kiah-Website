@@ -1,0 +1,5 @@
+/* Barbate Place Page */
+body.routes-page {
+	background: url("../Images/Barbate/barbate.jpg") no-repeat center center fixed;
+	background-size: cover;
+}

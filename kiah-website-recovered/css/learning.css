@@ -1,0 +1,6 @@
+/* Learning Page */
+body.learning-page {
+	background: url("../Images/Learning/Learning1.jpg") no-repeat center center
+		fixed;
+	background-size: cover;
+}

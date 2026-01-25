@@ -1,0 +1,12 @@
+/* Gibraltar Place Page */
+body.routes-page {
+	background: url("../Images/Gibraltar/Gib25.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+/* Small screen - show full background image */
+@media (max-width: 1100px) {
+	body.routes-page {
+		background-size: contain;
+	}
+}

@@ -1,0 +1,337 @@
+/* H.M.S. Eagle Page */
+body.routes-page {
+	background: url("../Images/Eagle/Eagle\ leaving\ Guz.jpeg") no-repeat center
+		center fixed;
+	background-size: cover;
+}
+
+/* Top Section */
+.topsection {
+	background: url("../Images/Eagle/carrierbgd2.jpg") no-repeat center center;
+	background-size: 100% 100%;
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 1200px;
+	border-radius: 10px;
+}
+
+.page-header {
+	color: white;
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+	text-shadow:
+		2px 2px 8px black,
+		0 0 10px black,
+		0 0 20px black;
+}
+
+.topsection p {
+	color: white;
+	margin: 5px 0;
+	text-shadow:
+		2px 2px 6px black,
+		0 0 8px black,
+		0 0 15px black;
+	font-size: 1.2rem;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+	background: url("../Images/backgrounds/Back\ (19).jpg") center center;
+	background-size: cover;
+	padding: 30px;
+	margin: 20px auto;
+	max-width: 1200px;
+	border-radius: 10px;
+	min-height: 200px;
+	height: auto;
+	border: 4px solid white;
+}
+
+.jumbotron-container {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.Crest {
+	flex: 0 0 125px;
+}
+
+.Crest img,
+.Ensign img {
+	border: 4px solid white;
+}
+
+.jumbotron-text {
+	flex: 1;
+	padding: 0 20px;
+	min-width: 0;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.Ensign {
+	flex: 0 0 125px;
+}
+
+/* Two Column Layout */
+.text {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.row {
+	display: flex;
+	gap: 20px;
+	background: url("../Images/backgrounds/Back\ (19).jpg") center center;
+	background-size: cover;
+	padding: 30px;
+	border-radius: 10px;
+	align-items: flex-start;
+	border: 4px solid white;
+}
+
+/* Left Column - Vertical Menu */
+.column1 {
+	flex: 0 0 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.btn {
+	display: block;
+	padding: 12px 20px;
+	background-color: #2c3e50;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	font-size: 1rem;
+	border: 4px solid white;
+}
+
+.btn:hover {
+	background-color: #34495e;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Vertical Line Separator */
+.vl {
+	border-left: 2px solid #fff;
+	margin: 0 20px;
+	min-height: 500px;
+}
+
+/* Right Column - Content */
+.column2 {
+	flex: 1;
+	color: white;
+}
+
+.skipper,
+.sco {
+	margin-bottom: 30px;
+}
+
+.skipper h2,
+.sco h2 {
+	margin-bottom: 10px;
+}
+
+.skipper h3,
+.sco h3 {
+	margin-bottom: 15px;
+}
+
+.skipper p,
+.sco p {
+	margin-bottom: 15px;
+	line-height: 1.6;
+}
+
+.skipper img,
+.sco img {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border: 4px solid white;
+	max-width: 125px;
+	max-height: 300px;
+	height: auto !important;
+	width: auto !important;
+	object-fit: contain;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	background: linear-gradient(to right, transparent, #fff, transparent);
+	margin: 30px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+	.jumbotron {
+		padding: 25px 15px;
+		min-height: auto;
+		height: auto;
+	}
+
+	.jumbotron-container {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		grid-template-rows: auto;
+		gap: 15px;
+		align-items: start;
+		height: auto;
+		min-height: 0;
+	}
+
+	.Crest {
+		grid-column: 1;
+		grid-row: 1;
+		align-self: start;
+	}
+
+	.Ensign {
+		grid-column: 3;
+		grid-row: 1;
+		align-self: start;
+	}
+
+	.jumbotron-text {
+		grid-column: 2;
+		grid-row: 1;
+		padding: 0 10px;
+		min-width: 0;
+		height: auto;
+	}
+
+	.jumbotron-text p {
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
+}
+
+@media (max-width: 768px) {
+	.jumbotron {
+		padding: 20px 15px;
+		margin: 20px 10px;
+		min-height: auto;
+		height: auto;
+	}
+
+	.jumbotron-container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 15px;
+		height: auto;
+		min-height: 0;
+	}
+
+	.Crest,
+	.Ensign {
+		flex: 0 0 auto;
+		margin-bottom: 10px;
+	}
+
+	.jumbotron-text {
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.jumbotron-text p {
+		text-align: center !important;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
+
+	.row {
+		flex-direction: column;
+		padding: 20px 15px;
+		margin: 10px;
+	}
+
+	.column1 {
+		flex: 1;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.vl {
+		display: none;
+	}
+
+	.column2 {
+		width: 100%;
+	}
+
+	.skipper img,
+	.sco img {
+		float: none;
+		display: block;
+		margin: 0 auto 20px;
+		max-width: 80px;
+		height: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.jumbotron {
+		padding: 15px 10px;
+		margin: 10px 5px;
+		min-height: auto;
+		height: auto;
+	}
+
+	.jumbotron-container {
+		height: auto;
+	}
+
+	.jumbotron-text {
+		font-size: 0.85rem;
+	}
+
+	.jumbotron-text p {
+		font-size: 0.85rem;
+		margin: 10px 0;
+	}
+
+	.Crest img,
+	.Ensign img {
+		width: 90px !important;
+		height: 108px !important;
+	}
+
+	.topsection {
+		padding: 15px 10px;
+		margin: 10px 5px;
+	}
+
+	.page-header {
+		font-size: 1.8rem;
+	}
+
+	.topsection p {
+		font-size: 1rem;
+	}
+
+	.text {
+		padding: 10px;
+		margin: 10px 5px;
+	}
+
+	.skipper img,
+	.sco img {
+		max-width: 70px;
+		height: auto;
+	}
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>The Mediterranean</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/routes.css" />
+		<link rel="stylesheet" href="css/routes-mediterranean.css" />
+		<script src="js/global.js" defer></script>
+		<script src="js/lightbox.js" defer></script>
+	</head>
+	<body class="routes-page">
+		<div id="header"></div>
+
+		<div class="route-section">
+			<h1>The Mediterranean</h1>
+
+			<div class="places-dropdown-container">
+				<label for="places-select" class="places-label">Visit a Place:</label>
+				<select
+					id="places-select"
+					class="places-dropdown"
+					onchange="navigateToPlace(this.value)"
+				>
+					<option value="">-- Select a place --</option>
+					<optgroup label="Spain">
+						<option value="place-almerimar.html">Almerimar</option>
+					</optgroup>
+					<optgroup label="Gibraltar Strait">
+						<option value="place-gibraltar.html">Gibraltar</option>
+					</optgroup>
+					<optgroup label="Central Mediterranean">
+						<option value="place-malta.html">Malta</option>
+					</optgroup>
+				</select>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+
+		<script>
+			function navigateToPlace(url) {
+				if (url) {
+					window.location.href = url;
+				}
+			}
+		</script>
+	</body>
+</html>

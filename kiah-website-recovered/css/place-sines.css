@@ -1,0 +1,6 @@
+/* Sines Place Page */
+body.routes-page {
+	background: url("../Images/Sines/PortofSinesGeral.jpg") no-repeat center
+		center fixed;
+	background-size: cover;
+}

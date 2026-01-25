@@ -1,0 +1,631 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>IP Home Port | The Original Website For Island Packet Yacht Owners And Enthusiasts</title>
+<meta name="Description" content="Founded in 1998, IP Home Port is the ideal on-line community and information resource for all Island Packet owners and enthusiasts">
+<meta name="google-site-verification" content="FLALoNKGgwP911jytZ4RiWa8knHk5C8YZfiwfgrT1z8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+
+<title dir="ltr">IP Home Port</title>
+<link rel="shortcut icon" href="/forum/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/forum/themes/simple/style_sheet.css">
+
+<script type="text/javascript">
+
+function open_gallery_insert()
+{
+       	newwindow=window.open("gallery_myimages.php", "window", "height=600,width=700");
+	if (window.focus) {newwindow.focus()}
+return false;
+}
+
+function imgUrl(image_url)
+{
+        window.close();
+        window.opener.update(image_url);
+}
+
+function update(image_name)
+{
+	var browser = navigator.appName;
+	if(browser == "Netscape")
+	{
+		editor.contentWindow.focus();
+		var e = document.createElement("img");
+		e.setAttribute("src", image_name);
+		e.setAttribute("alt", "");
+		paste_HTML(e);
+		var b = document.createElement("<br />");
+		paste_HTML(b);
+	}
+	else
+	{
+		text_editor.focus();
+		cursor_pos.pasteHTML('<img src="' + image_name + '" alt=""><br />');
+	}
+}
+
+function suppress_errors()
+{
+   return true;
+}
+
+window.onerror = suppress_errors;
+
+
+var browser_type;
+var browser_version;
+var cookie_params = new Array();
+var today         = new Date();
+
+function get_cookie()
+{
+   var cookies     = document.cookie.split("; ");
+   var num_cookies = cookies.length;
+   var i;
+   var parts;
+   cookie_params[2] = "none";
+
+   for (i = 0; i < num_cookies; i++)
+      {
+         parts = cookies[i].split("=");
+         if (parts[0] == "wowbb")
+            {
+               cookie_values = unescape(parts[1]);
+               cookie_params = cookie_values.split("||");
+               return;
+            }
+      }
+}
+
+
+function set_cookie()
+{
+   var cookie_expires = today.toUTCString(today.setSeconds(157680000));
+   var cookie_value   = escape(cookie_params.join("||"));
+
+   document.cookie    = "wowbb=" + cookie_value + "; expires=" + cookie_expires +
+                        "; domain=.iphomeport.com; path=/";
+}
+
+navigator.userAgent.indexOf("MSIE") != -1 ? browser_type = "MSIE" : browser_type = "Netscape";
+if (browser_type == "MSIE")
+   {
+      browser_version = navigator.userAgent.substr(navigator.userAgent.indexOf("MSIE") + 5, 1);
+      if (navigator.userAgent.indexOf("Mac_PowerPC") != -1)
+         browser_version = "Mac";
+      if (browser_version.substr(0, 1) == 4)
+         browser_type = "MSIE4";
+   }
+if (navigator.userAgent.indexOf("Gecko") != -1 || navigator.userAgent.indexOf("Opera") != -1)
+   browser_type = "Gecko";
+
+get_cookie();
+cookie_params[2] = -today.getTimezoneOffset();
+set_cookie();
+
+function more_init()
+{
+
+}
+
+var active_menu;
+var active_link;
+var active_link_class;
+
+
+function get_element(id)
+{
+   if (browser_type == "MSIE4")
+      return document.all[id];
+   else
+      return document.getElementById(id);
+}
+
+
+function window_dims()
+{
+   var dims = new Array("window_width", "window_height", "scroll_top", "scroll_top2");
+   if (browser_type == "MSIE")
+      {
+         dims["window_width"]  = document.body.clientWidth;
+         dims["window_height"] = document.body.clientHeight;
+         dims["scroll_top"]    = document.body.scrollTop;
+         dims["scroll_top2"]   = dims["scroll_top"];
+      }
+   else
+      {
+         dims["window_width"]  = window.innerWidth;
+         dims["window_height"] = window.innerHeight;
+         dims["scroll_top"]    = window.scrollY;
+         dims["scroll_top2"]   = 0;
+      }
+
+   return dims;
+}
+
+
+function get_obj_pos(obj, obj_pos_x, obj_pos_y, dims)
+{
+   x = obj_pos_x + obj.offsetLeft;
+   y = obj_pos_y + obj.offsetTop;
+   if (obj.offsetParent != null)
+      {
+         browser_type == "MSIE" ? dims["scroll_top"] = obj.offsetParent.scrollTop : dims["scroll_top"] = 0;
+         get_obj_pos(obj.offsetParent, x, y - dims["scroll_top"], dims);
+      }
+   return new Array(x, y);
+}
+
+
+function show_menu(event, obj, menu_id)
+{
+   var horizontal_shift = 20;
+   var vertical_shift   = 2;
+
+   if (browser_type == "Netscape" || browser_version == "Mac" || browser_version == "4")
+      return;
+
+   var menu = get_element(menu_id);
+   var pc;
+
+   if (menu == null)
+      {
+         if (browser_type == "MSIE")
+            menu = document.createElement('<DIV ID="' + menu_id + '" CLASS="popup" DIR="ltr">');
+         else
+            {
+               menu = document.createElement("div");
+               menu.setAttribute("id",    menu_id);
+               menu.setAttribute("class", "popup");
+               menu.setAttribute("dir",   "ltr");
+            }
+         document.body.appendChild(menu);
+
+         u = user_menus[menu_id];
+
+         pc = popup_code.replace('$_mi_view_profile', u[0] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_view_profile',      u[1]);
+         pc = pc.replace('$_mi_send_pm',        u[2] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_send_pm',           u[3]);
+         pc = pc.replace('$_mi_user_email',     u[4] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_email',        u[5]);
+         pc = pc.replace('$_mi_user_homepage',  u[6] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_homepage',     u[7]);
+         pc = pc.replace('$_mi_add_to_mana',    u[8] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_add_to_mana',       u[9]);
+
+         menu.innerHTML = pc;
+      }
+
+   if (active_menu != null)
+      active_menu.style.display = "none";
+
+   if (browser_type == "MSIE" && browser_version >= "6")
+      menu.filters[0].Apply();
+
+   dims       = window_dims();
+   menu_pos   = get_obj_pos(obj, 0, 0, dims);
+   menu_pos_x = menu_pos[0];
+   menu_pos_y = menu_pos[1] + dims["scroll_top2"];
+
+   if (active_link != null)
+      active_link.className = active_link_class;
+   active_link        = obj;
+   active_link_class  = active_link.className;
+   obj.className      = "userselected";
+   obj.blur();
+   menu.style.display = "block";
+   menu_left          = menu_pos_x;
+   menu_top           = menu_pos_y + obj.offsetHeight;
+
+   if (dims["window_width"] < (menu_left + menu.offsetWidth + horizontal_shift))
+      menu_left = menu_pos_x - menu.offsetWidth;
+
+   if (menu_top + menu.offsetHeight + vertical_shift - dims["window_height"] > dims["scroll_top"])
+      menu_top = menu_pos_y - menu.offsetHeight;
+
+   menu.style.left = (menu_left + horizontal_shift) + "px";
+   menu.style.top  = (menu_top + vertical_shift) + "px";
+   active_menu     = menu;
+
+   if (browser_type == "MSIE")
+      window.event.returnValue = false;
+   else
+      event.preventDefault();
+
+   if (browser_type == "MSIE" && browser_version >= "6")
+      menu.filters[0].Play();
+}
+
+
+function hide_menu(event)
+{
+   if (browser_type == "MSIE")
+      var tag_name = window.event.srcElement.tagName;
+   else
+      {
+         var tag_name = event.target.tagName;
+         if (!tag_name)
+            var tag_name = event.target.parentNode.tagName;
+      }
+
+   if (active_menu != null && tag_name.toLowerCase() != "a")
+      {
+         active_link.className     = active_link_class;
+         active_menu.style.display = "none";
+      }
+}
+
+</script>
+
+
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/forum/themes/all/wgui.js"></script>
+</head>
+<body class="body" onload="more_init();initLightbox()" onmousedown="hide_menu(event); delayhide2(); delayhide3(); delayhide1();">
+<script type="text/javascript">
+function show2()
+{
+document.getElementById('m2').style.display = "";
+}
+
+function delayhide2()
+{
+delay2=setTimeout("hide2()",300);
+}
+
+function cancelhide2()
+{
+clearTimeout(delay2);
+}
+
+function hide2()
+{
+document.getElementById('m2').style.display = "none";
+}
+</script>
+<script type="text/javascript">
+
+function show3()
+{
+document.getElementById('m3').style.display = "";
+}
+
+function delayhide3()
+{
+delay3=setTimeout("hide3()",300);
+}
+
+function cancelhide3()
+{
+clearTimeout(delay3);
+}
+
+function hide3()
+{
+document.getElementById('m3').style.display = "none";
+}
+</script>
+
+
+<a name="top"></a>
+<center>
+<table width="100%" cellpadding="6" cellspacing="0" border="0" dir="ltr">
+<tr><td class="clean" align="center">
+
+<table cellpadding="0" cellspacing="0" class="dropshadow">
+  <tr><td class="clean" align="center">
+    <a href="/forum/"><img src="/forum/banners/Banner6.jpg" alt="IP Home Port Home" border="0"></a>
+  </td></tr>
+</table>
+
+</td></tr>
+
+<tr><td class="bg_new" align="center"><div dir="ltr"><b>You Are Here : <a href='http://www.iphomeport.com/forum'>Home Page</a> > <a href='http://iphomeport.com/forum/model_info.php?ip_model=IP380'>Island Packet Model Information</a></b></div></td></tr>
+</table>
+</center>
+<br>
+
+
+<div class="statusmessage" dir="ltr"></div>
+
+
+
+
+<center>
+<table width="98%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="clean" valign="top">
+<center>
+<table width="100%" cellpadding="0" cellspacing="0" border="1" dir="ltr" class="dropshadow">
+<tr>
+   <td class="titlebar" dir="ltr">Main Menu</td>
+</tr>
+<tr>
+   <td class="clean">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+      <td class="inside" width="100%" dir="ltr">
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<tr>
+<td class="clean" colspan="2" valign="middle" align="center" style="border-bottom: 1px solid"><b>Not Logged In</b></td>
+</tr>
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left" nowrap><A HREF="/forum/login.php?register=1">Register</a></td>
+</tr>
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left" nowrap><A HREF="/forum/login.php">Login</a></td>
+</tr>
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left"nowrap><A HREF="/forum">Forum Home</a></td>
+</tr>
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left"nowrap><A HREF="/forum/help.php">Help</a></td>
+</tr>
+
+<tr>
+<td class="menudot_2" colspan="2" valign="middle" align="left"><img border="0" width="100%" height="1" alt="" src="/forum/themes/simple/spacer.gif"></td>
+</tr>
+
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left"nowrap><A HREF="/forum/model_info.php">IP Model Info</a></td>
+</tr>
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left"nowrap><A HREF="/forum/compare_specs.php">IP Comparisons</a></td>
+</tr>
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left"nowrap><A HREF="/forum/hin_decoder.php">HIN Decoder</a></td>
+</tr>
+<tr>
+<td class="menudot_2" colspan="2" valign="middle" align="left"><img border="0" width="100%" height="1" alt="" src="/forum/themes/simple/spacer.gif"></td>
+</tr>
+
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left"nowrap><A HREF="/forum/view_category.php?id=9">Boat Ads</a></td>
+</tr>
+<tr>
+<td class="menudot" valign="middle" align="left"><img border="0" width="12" height="10" alt="" src="/forum/themes/simple/spacer.gif"></td><td class="clean" width="100%" valign="middle" align="left"nowrap><A HREF="/forum/view_category.php?id=8">General Ads</a></td>
+</tr>
+
+</table>
+      </td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+</center>
+<br>
+<!--UltraBB separator-->
+
+<center>
+<table width="100%" cellpadding="0" cellspacing="0" border="1" dir="ltr" class="dropshadow">
+<tr>
+   <td class="titlebar" dir="ltr">Search</td>
+</tr>
+<tr>
+   <td class="clean">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+      <td class="inside" width="100%" dir="ltr">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<form name="search_form" method="get" action="/forum/search.php">
+<input type="hidden" name="s" value="">
+<tr>
+<td class="clean" align="middle"><input class="textbox" type="text" name="q" size="12" value=""></td>
+</td>
+<tr>
+<td class="clean" align="middle">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+<tr>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><A CLASS="navbutton" HREF="javascript: document.search_form.s.value='1'; document.search_form.submit();" onmouseover="window.status=''; return true;" onmouseout="window.status=''; return true;">Search</a></td><td class="clean">&nbsp;</td>
+</tr>
+</tr></table>
+</td>
+</tr>
+<tr>
+<td class="clean" dir="ltr"><input type="checkbox" name="by_username" value="1"> Search Usernames
+<!--UltraBB separator--></td>
+</tr>
+</form>
+</table>
+      </td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+</center>
+<br>
+<!--UltraBB separator-->
+
+<img src="/forum/images/spacer.gif" width="140" height="1" border="0">
+</td>
+<td class="clean" valign="top">&nbsp;</td>
+<td class="clean" valign="top" width="100%">
+
+
+<center>
+<table width="98%" cellpadding="0" cellspacing="0" border="1" dir="ltr" class="dropshadow">
+<tr>
+   <td class="titlebar" dir="ltr">Island Packet Model Information</td>
+</tr>
+<tr>
+   <td class="clean">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+      <td class="inside" width="100%" dir="ltr"><br/><TABLE WIDTH='100%'><TR><TD ALIGN='CENTER' CLASS='clean'><FORM METHOD='get' ACTION=''><b>Model&nbsp;&nbsp;:&nbsp;&nbsp;</b><SELECT NAME='ip_model' SIZE='1' onchange='submit();'><OPTION VALUE='Unknown' >Choose One</OPTION><OPTION VALUE='Estero' >Estero</OPTION><OPTION VALUE='IP26MkI' >IP26 MkI</OPTION><OPTION VALUE='IP26MkII' >IP26 MkII</OPTION><OPTION VALUE='IP27' >IP27</OPTION><OPTION VALUE='IP29' >IP29</OPTION><OPTION VALUE='IP31' >IP31</OPTION><OPTION VALUE='IP32' >IP32</OPTION><OPTION VALUE='IP320' >IP320</OPTION><OPTION VALUE='IP35' >IP35</OPTION><OPTION VALUE='IP350' >IP350</OPTION><OPTION VALUE='IP360' >IP360</OPTION><OPTION VALUE='IP37' >IP37</OPTION><OPTION VALUE='IP370' >IP370</OPTION><OPTION VALUE='IP38' >IP38</OPTION><OPTION VALUE='IP380' SELECTED = YES>IP380</OPTION><OPTION VALUE='IP40' >IP40</OPTION><OPTION VALUE='IP420' >IP420</OPTION><OPTION VALUE='IP44' >IP44</OPTION><OPTION VALUE='IP440' >IP440</OPTION><OPTION VALUE='IP445' >IP445</OPTION><OPTION VALUE='IP45' >IP45</OPTION><OPTION VALUE='IP460' >IP460</OPTION><OPTION VALUE='IP465' >IP465</OPTION><OPTION VALUE='IP485' >IP485</OPTION><OPTION VALUE='PacketCat' >Packet Cat</OPTION><OPTION VALUE='SPCruiser' >SP Cruiser</OPTION></SELECT></FORM></TD></TR></TABLE><center><table width='90%'>   <tr>      <td class='clean' align='center'>      <a href='#General'><b>General</b></a> &nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;      <a href='#Documentation'><b>Docs</b></a> &nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;      <a href='#Specifications'><b>Specs</b></a> &nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;      <a href='#Rigging'><b>Rigging</b></a>      <br/><br/><i>Note: All Island Packet models are subject to specification changes (dimensions, capacities, ratings, equipment, etc.) during their production life. The specifications given here are representative and should be used for general comparison only.</i><br/><br/>      </td></tr></table>      </td>   </tr>   </table>   </td></tr></table></center><a name='General'></a><br/><br/><center><table width='98%' cellpadding='0' cellspacing='0' border='1' dir='' class='dropshadow'><tr>   <td class='titlebar' dir=''><b>General Information For The IP380</b></td></tr><tr>   <td class='clean'>   <table width='100%' cellpadding='0' cellspacing='0' border='0'>   <tr>      <td class='inside' align='center' width='100%' dir=''><table width='98%' border='0' cellpadding='10' class='clean'><tr>   <td class='clean' align='center' valign='middle' width='25%' rowspan='2'>      <img src='ip_model_info/photos/IP380.jpg' width='240'>   </td>   <td class='clean' align='right' valign='middle'>      <img src='ip_model_info/IPLogo.jpg'>   </td>   <td class='clean' align='center' valign='middle' style='white-space: nowrap' width='200'>      <div style='font-size:24px';>Island Packet 380</div>   </td>   <td class='clean' align='left' valign='middle'>      <img src='ip_model_info/IPLogo.jpg'>   </td></tr><tr>   <td class='clean' align='left' valign='top' colspan='3'>The Island Packet 380 represents a further evolution of the design, engineering and construction philosophy proven in over 1600 yachts and in countless miles of all kinds of cruising around the globe. With its modern Full Foil Keel, cutter rig, and impressive interior accommodation plan, the IP380 is yet another prime example of why Island Packet Yachts has become America's Cruising Yacht Leader.<br/><br/><div style='text-align: right';><i>- from the factory brochure&nbsp;&nbsp;&nbsp;&nbsp;</i></div></td></tr></table>      </td>   </tr>   </table>   </td></tr></table></center><a name='Documentation'></a><br/><br/><center><table width='98%' cellpadding='0' cellspacing='0' border='1' dir='' class='dropshadow'><tr>   <td class='titlebar' dir=''><b>Documentation For The IP380</b></td></tr><tr>   <td class='clean'>   <table width='100%' cellpadding='0' cellspacing='0' border='0'>   <tr>      <td class='inside' width='100%' dir=''><table width='98%' border='0' cellpadding='10' class='clean'><tr>   <td class='clean' align='center' valign='middle' width='25%'>      <A HREF='http://www.iphomeport.com/forum/files/brochures/Brochure_IP380.PDF' target='_blank'>      <img src='ip_model_info/brochures/IP380.jpg' height='150' border='1'></A>   </td>   <td class='clean' align='center' valign='middle' width='25%'>      <A HREF='http://www.iphomeport.com/forum/files/specsheets/Specs_IP380.PDF' target='_blank'>      <img src='ip_model_info/specsheets/IP380specs.jpg' height='150' border='1'></A>   </td>   <td class='clean' align='center' valign='middle' width='25%'>      <a href='ip_model_info/interiors/IP380_Interior.jpg' rel='lightbox[HomePort]' title='IP380 Interior Plan'>      <img src='ip_model_info/interiors/thumb_IP380_Interior.jpg' height='150' style='border: none'></a>   </td></tr><tr>   <td class='clean' align='center' valign='middle' width='25%'>      <b>Brochure</b>   </td>   <td class='clean' align='center' valign='middle' width='25%'>      <b>Spec & Price List</b>   </td>   <td class='clean' align='center' valign='middle' width='25%'>      <b>Interior Plan</b>   </td></tr></table>      </td>   </tr>   </table>   </td></tr></table></center><a name='Specifications'></a><br/><br/><center><table width='98%' cellpadding='0' cellspacing='0' border='1' dir='' class='dropshadow'><tr>   <td class='titlebar' dir=''><b>Specifications For The IP380</b></td></tr><tr>   <td class='clean'>   <table width='100%' cellpadding='0' cellspacing='0' border='0'>   <tr>      <td class='inside' align='center' width='100%' dir=''><table width='98%' border='0' cellpadding='10' class='clean'><tr>   <td class='clean' width='16%'><b>First Built</b></td>   <td class='clean' width='18%' align='left'>1998</td>   <td class='clean' width='5%'>&nbsp;</td>   <td class='clean' width='16%'><b>LOA</b></td>   <td class='clean' width='12%' align='left'>39'-7''</td>   <td class='clean' width='5%'>&nbsp;</td>   <td class='clean' width='16%'><b>Sail Area</b></td>   <td class='clean' width='12%' align='left'>885</td></tr><tr>   <td class='clean'><b>Last Built</b></td>   <td class='clean' align='left'>2004</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>LOD</b></td>   <td class='clean' align='left'>N/A</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Sail I</b></td>   <td class='clean' align='left'>50'-2''</td></tr><tr>   <td class='clean'><b>Number Built</b></td>   <td class='clean' align='left'>169</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>LWL</b></td>   <td class='clean' align='left'align='left'>32'</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Sail J</b></td>   <td class='clean' align='left'>17'-2''</td></tr><tr>   <td class='clean'><b>Displacement</b></td>   <td class='clean' align='left'>21000</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Beam</b></td>   <td class='clean' align='left'>13'-2''</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Sail P</b></td>   <td class='clean' align='left'>42'-10''</td></tr><tr>   <td class='clean'><b>Ballast</b></td>   <td class='clean' align='left'>9000</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Draft</b></td>   <td class='clean' align='left'>4'-7''</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Sail E</b></td>   <td class='clean' align='left'>15'-2''</td></tr><tr>   <td class='clean'><b>Fuel Cap</b></td>   <td class='clean' align='left'>85 US gal</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Shoal Draft</b></td>   <td class='clean' align='left'>N/A</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>D/L Ratio</b></td>   <td class='clean' align='left'>286</td></tr><tr>   <td class='clean'><b>Water Cap</b></td>   <td class='clean' align='left'>170 US gal</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Mast Height</b></td>   <td class='clean' align='left'>54'-3''</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>SA/D Ratio</b></td>   <td class='clean' align='left'>18.6</td></tr><tr>   <td class='clean'><b>Holding Cap</b></td>   <td class='clean' align='left'>40 US gal</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Diesel HP</b></td>   <td class='clean' align='left'>50</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>B/D Ratio</b></td>   <td class='clean' align='left'>43%</td></tr><tr>   <td class='clean' colspan='8' align='center'>      <i>Click <a href='http://www.iphomeport.com/forum/compare_specs.php'>here</a> to compare these IP380 specifications with other Island Packet models.</i><br/><br/>   </td></tr></table>      </td>   </tr>   </table>   </td></tr></table></center><a name='RunningRigging'></a><br/><br/><center><table width='98%' cellpadding='0' cellspacing='0' border='1' dir='' class='dropshadow'><tr>   <td class='titlebar' dir=''><b>Running Rigging For The IP380</b></td></tr><tr>   <td class='clean'>   <table width='100%' cellpadding='0' cellspacing='0' border='0'>   <tr>      <td class='inside' align='center' width='100%' dir=''><table width='98%' border='0' cellpadding='10' class='clean'><tr>   <td class='clean' colspan='2' align='center'><b>Mainsail Rigging</b></td>   <td class='clean'>&nbsp;</td>   <td class='clean' colspan='2' align='center'><b>Staysail Rigging</b></td>   <td class='clean'>&nbsp;</td>   <td class='clean' colspan='2' align='center'><b>Other Rigging</b></td></tr><tr>   <td class='clean' width='15%'><b>Halyard</b></td>   <td class='clean' width='18%' align='left'>7/16''x125'</td>   <td class='clean' width='2%'>&nbsp;</td>   <td class='clean' width='13%'><b>Halyard</b></td>   <td class='clean' width='15%' align='left'>3/8''x85'</td>   <td class='clean' width='2%'>&nbsp;</td>   <td class='clean' width='16%'><b>Jib Halyard</b></td>   <td class='clean' width='19%' align='left'>7/16''x105'</td></tr><tr>   <td class='clean'><b>Sheet</b></td>   <td class='clean' align='left'>1/2''x80'</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Sheet</b></td>   <td class='clean' align='left'>7/16''x70'</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Jib Sheet</b></td>   <td class='clean' align='left'>1/2''x160'</td></tr><tr>   <td class='clean'><b>Topping Tail</b></td>   <td class='clean' align='left'>5/16''x33'</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Clew</b></td>   <td class='clean' align='left'align='left'>3/8''x65'</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Boom Vang</b></td>   <td class='clean' align='left'>1/2''x41'</td></tr><tr>   <td class='clean'><b>Topping Wire</b></td>   <td class='clean' align='left'>1/8''x38' 7x7 wire</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Topping Lift</b></td>   <td class='clean' align='left'>N/A (Hoyt Boom)</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Reefing Lines</b></td>   <td class='clean' align='left'>7/16''</td></tr><tr>   <td class='clean'>&nbsp;</td>   <td class='clean'>&nbsp;</td>   <td class='clean'>&nbsp;</td>   <td class='clean'>&nbsp;</td>   <td class='clean'>&nbsp;</td>   <td class='clean'>&nbsp;</td>   <td class='clean'><b>Traveler Control</b></td>   <td class='clean' align='left'>3/8''x30'</td></tr><tr>   <td class='clean' colspan='8' align='center'>      <i>Click <a href='http://www.iphomeport.com/forum/compare_specs.php?spec_type=rigging_main'>here</a> to compare IP380 running rigging with other Island Packet models.</i><br/><br/>   </td></tr></table>      </td>   </tr>   </table>   </td></tr></table></center><a name='StandingRigging'></a><br/><br/><center><table width='98%' cellpadding='0' cellspacing='0' border='1' dir='' class='dropshadow'><tr>   <td class='titlebar' dir=''><b>Standing Rigging For The IP380</b></td></tr><tr>   <td class='clean'>   <table width='100%' cellpadding='0' cellspacing='0' border='0'>   <tr>      <td class='inside' align='center' width='100%' dir=''><table width='98%' border='0' cellpadding='10' class='clean'><tr>   <td class='clean' width='15%' align='center'>&nbsp;</td>   <td class='clean' width='15%' align='center'><b>Wire Size</b></td>   <td class='clean' width='15%' align='center'><b>Loos Gauge</b></td>   <td class='clean' width='15%' align='center'><b>Scale Reading<br/>Below 50 F</b></td>   <td class='clean' width='15%' align='center'><b>Scale Reading<br/>50 F to 80 F</b></td>   <td class='clean' width='15%' align='center'><b>Scale Reading<br/>Above 80 F</b></td></tr><tr>   <td class='clean' align='left'><b>Upper Stays</b></td>   <td class='clean' align='center'>3/8''</td>   <td class='clean' align='center'>PT-3</td>   <td class='clean' align='center'>38</td>   <td class='clean' align='center'>40</td>   <td class='clean' align='center'>41</td></tr><tr>   <td class='clean' align='left'><b>Intermediate Stays</b></td>   <td class='clean' align='center'>- -</td>   <td class='clean' align='center'>- -</td>   <td class='clean' align='center'>- -</td>   <td class='clean' align='center'>- -</td>   <td class='clean' align='center'>- -</td></tr><tr>   <td class='clean' align='left'><b>Aft Lower Stays</b></td>   <td class='clean' align='center'>5/16''</td>   <td class='clean' align='center'>PT-3</td>   <td class='clean' align='center'>23</td>   <td class='clean' align='center'>25</td>   <td class='clean' align='center'>26</td></tr><tr>   <td class='clean' align='left'><b>Fwd Lower Stays</b></td>   <td class='clean' align='center'>5/16''</td>   <td class='clean' align='center'>PT-3</td>   <td class='clean' align='center'>23</td>   <td class='clean' align='center'>25</td>   <td class='clean' align='center'>26</td></tr><tr>   <td class='clean' align='left'><b>Check Stays</b></td>   <td class='clean' align='center'>- -</td>   <td class='clean' align='center'>- -</td>   <td class='clean' align='center'>- -</td>   <td class='clean' align='center'>- -</td>   <td class='clean' align='center'>- -</td></tr><tr>   <td class='clean' align='left'><b>Back Stays</b></td>   <td class='clean' align='center'>5/16''</td>   <td class='clean' align='center'>PT-3</td>   <td class='clean' align='center'>26</td>   <td class='clean' align='center'>28</td>   <td class='clean' align='center'>29</td></tr><tr>   <td class='clean' colspan='8' align='center'>      <b>IMPORTANT : These are MAXIMUM (not to exceed) rigging tensions as measured using the indicated Loos gauges</b><br/><br/>      <i>Check tensions after initial setup of the rigging and after any subsequent adjustments.<br/><br/>      Gauge readings may vary from stay to stay of the same type but none should exceed the maximum scale readings listed.<br/><br/>      Please visit the <a href='http://loosnaples.com/tension-gauges/professional-models' target='_blank'>Loos website</a> for more information about the PT-2 and PT-3 gauges.<br/><br/>      If you are not familiar with the process for tuning your rig please contact a qualified rigger in your area.</i><br/><br/>   </td></tr></table></center><!--UltraBB separator-->      </td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+</center>
+<br>
+<!--UltraBB separator-->
+
+
+
+
+</td>
+<td class="clean" valign="top">&nbsp;</td>
+<td class="clean" valign="top">
+
+<center>
+<table width="100%" cellpadding="0" cellspacing="0" border="1" dir="ltr" class="dropshadow">
+<tr>
+   <td class="titlebar" dir="ltr">Gallery Menu</td>
+</tr>
+<tr>
+   <td class="clean">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+      <td class="inside" width="100%" dir="ltr">
+
+<table border='0' cellpadding='0' cellspacing='5' width='100%'>
+
+<tr>
+  <td class='clean' colspan='2' align='center' valign='middle'>
+  <table border='0' cellpadding='5' cellspacing='0' width='100%'>
+  <tr> 
+  <td class='clean' align='center' valign='middle'>
+     <A HREF='https://www.iphomeport.com/forum/gallery_view.php?display=ALL'><img border='0' width='110' alt='IP Home Port Gallery' src='https://www.iphomeport.com/forum/images/Gallery_Thumb.gif'></a>
+  </td>
+  </tr>
+  </table>
+  </td>
+</tr>  
+
+<tr>
+  <td class='menudot' valign='middle' align='left'>
+    <img border='0' width='12' height='10' alt='' src='/forum/themes/simple/spacer.gif'>
+  </td>
+  <td class='clean' width='100%' valign='middle' align='left' nowrap>
+    <A HREF='https://www.iphomeport.com/forum/gallery_view.php?display=ALL'>View All Photos</a>
+  </td>
+</tr>
+
+<tr>
+  <td class='menudot' valign='middle' align='left'>
+    <img border='0' width='12' height='10' alt='' src='/forum/themes/simple/spacer.gif'>
+  </td>
+  <td class='clean' width='100%' valign='middle' align='left' nowrap>
+    <A HREF='https://www.iphomeport.com/forum/gallery_view.php'>View My Photos</a>
+  </td>
+</tr>
+
+<tr>
+  <td class='menudot' valign='middle' align='left'>
+    <img border='0' width='12' height='10' alt='' src='/forum/themes/simple/spacer.gif'>
+  </td>
+  <td class='clean' width='100%' valign='middle' align='left' nowrap>
+    <A HREF='https://www.iphomeport.com/forum/gallery_upload.php'>Upload Photos</a>
+  </td>
+</tr>
+
+<tr>
+<td class="menudot_2" colspan="2" valign="middle" align="left"><img border="0" width="100%" height="1" alt="" src="/forum/themes/simple/spacer.gif"></td>
+</tr>
+
+<tr>
+  <td class='menudot' valign='middle' align='left'>
+    <img border='0' width='12' height='10' alt='' src='/forum/themes/simple/spacer.gif'>
+  </td>
+  <td class='clean' width='100%' valign='middle' align='left' nowrap>
+    <A HREF='https://www.iphomeport.com/forum/gallery_myfolders.php'>Edit My Gallery</a>
+  </td>
+</tr>
+
+</table>
+
+      </td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+</center>
+<br>
+<!--UltraBB separator-->
+
+<center>
+<table width="100%" cellpadding="0" cellspacing="0" border="1" dir="ltr" class="dropshadow">
+<tr>
+   <td class="titlebar" dir="ltr">Visit The Factory</td>
+</tr>
+<tr>
+   <td class="clean">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+      <td class="inside" width="100%" dir="ltr">
+<table width="100%" cellpadding="5" cellspacing="0" border="0">
+<tr><td class="clean" ALIGN="CENTER">
+<BR/><A HREF="https://www.ipy.com" TARGET="_blank">
+<IMG NAME="Factory Logo" SRC="https://www.iphomeport.com/Graphics/FactoryLogo.jpg" WIDTH="125" HEIGHT="130" BORDER="0">
+</A><BR/><BR/></td></tr>
+</table>
+      </td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+</center>
+<br>
+<!--UltraBB separator-->
+
+<center>
+<table width="100%" cellpadding="0" cellspacing="0" border="1" dir="ltr" class="dropshadow">
+<tr>
+   <td class="titlebar" dir="ltr">IPs For Sale</td>
+</tr>
+<tr>
+   <td class="clean">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+      <td class="inside" width="100%" dir="ltr">
+<table width="100%" cellpadding="5" cellspacing="0" border="0">
+<tr><td class="clean" ALIGN='center'><BR/><a href="https://www.iphomeport.com/forum/view_category.php?id=9">IP Home Port</a></td></tr>
+<tr><td class="clean" ALIGN='center'><a href="http://tinyurl.com/43w9en9" TARGET="_blank">Yacht World</a></td></tr>
+<tr><td class="clean" ALIGN='center'><a href="http://tinyurl.com/455qqee" TARGET="_blank">Sailboat Listings</a></td></tr>
+<tr><td class="clean" ALIGN='center'><a href="http://tinyurl.com/3uth5rf" TARGET="_blank">Boat Trader</a><BR/><BR/></td></tr>
+</table>
+      </td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+</center>
+<br>
+<!--UltraBB separator-->
+<img src="/forum/images/spacer.gif" width="140" height="1" border="0">
+</td>
+</tr></table></center>
+
+
+<noscript>
+<center><i>Parts of this bulletin board may not function unless you enable JavaScript (also called Active Scripting) in your browser.</i></center>
+</noscript>
+<div class="statusline" dir="ltr">
+<br>Site Not Affiliated With Or Operated By Island Packet & Seaward Yachts, LLC<br>
+---------------------------<br>
+All Trademarks And Copyrights Remain The Property Of Their Respective Owners<br>
+---------------------------
+<br><a class="nummessages" HREF="https://ultrabb.net" TITLE="UltraBB Forum Software" TARGET="_blank">UltraBB 1.17</a> Copyright &copy; 2007-2011 Data 1 Systems<br>
+Remainder Of Site Copyright &copy; 1998-2021 by Stuart Williams
+</div>
+
+
+</td></tr></table>
+
+</body>
+</html>
+
+<!--UltraBB separator-->

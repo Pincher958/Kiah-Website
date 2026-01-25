@@ -1,0 +1,5 @@
+/* Rota Place Page */
+body.routes-page {
+	background: url("../Images/Rota/rota.jpg") no-repeat center center fixed;
+	background-size: cover;
+}

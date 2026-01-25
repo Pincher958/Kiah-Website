@@ -1,0 +1,105 @@
+/* The Ship Page - HMS Eagle */
+body.routes-page {
+	/* CUSTOMIZE: Change the background image path below */
+	background: url("../Images/Eagle/Eagle\ leaving\ Guz.jpeg") no-repeat center
+		center fixed;
+	background-size: cover;
+}
+
+/* Place Page Styles */
+.place-page {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.place-header {
+	background: url("../Images/Eagle/carrierbgd2.jpg") no-repeat center center;
+	background-size: 100% 100%;
+	padding: 30px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.place-header h1 {
+	color: white;
+	font-size: 2.5rem;
+	margin: 0;
+	text-shadow:
+		2px 2px 8px black,
+		0 0 10px black,
+		0 0 20px black;
+}
+
+.back-button {
+	background-color: rgba(255, 255, 255, 0.2);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	border: 2px solid white;
+	transition: all 0.3s ease;
+}
+
+.back-button:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+	transform: translateX(-5px);
+}
+
+.place-columns {
+	display: flex;
+	gap: 20px;
+	background: url("../Images/backgrounds/Back\ (19).jpg") center center;
+	background-size: cover;
+	padding: 30px;
+	border-radius: 10px;
+	border: 4px solid white;
+}
+
+.place-column-left {
+	flex: 1;
+	color: white;
+}
+
+.place-column-left h2 {
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	text-shadow:
+		2px 2px 6px black,
+		0 0 8px black,
+		0 0 15px black;
+}
+
+.place-column-left p {
+	font-size: 1.1rem;
+	line-height: 1.6;
+	text-shadow:
+		1px 1px 4px black,
+		0 0 6px black;
+}
+
+.place-column-right {
+	flex: 1;
+}
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 15px;
+}
+
+.gallery-grid img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+	border: 2px solid white;
+}
+
+.gallery-grid img:hover {
+	transform: scale(1.05);
+}
