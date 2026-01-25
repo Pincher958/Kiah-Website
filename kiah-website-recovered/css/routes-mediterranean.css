@@ -1,6 +1,6 @@
 /* The Mediterranean Route Page */
 body.routes-page {
-	background: url("../Images/The Med/Mediterranean.jpg") no-repeat center
+	background: url("../Images/The Med/Mediterranean.webp") no-repeat center
 		center fixed;
 	background-size: cover;
 }

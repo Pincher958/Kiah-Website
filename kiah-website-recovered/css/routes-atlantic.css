@@ -1,6 +1,6 @@
 /* The Atlantic Route Page */
 body.routes-page {
-	background: url("../Images/Atlantic/Atlantic.jpg") no-repeat center center
+	background: url("../Images/Atlantic/Atlantic.webp") no-repeat center center
 		fixed;
 	background-size: cover;
 }

@@ -7,7 +7,7 @@ body.routes-page {
 
 /* Top Section */
 .topsection {
-	background: url("../Images/Eagle/carrierbgd2.jpg") no-repeat center center;
+	background: url("../Images/Eagle/carrierbgd2.webp") no-repeat center center;
 	background-size: 100% 100%;
 	padding: 20px;
 	margin: 20px auto;
@@ -38,7 +38,7 @@ body.routes-page {
 
 /* Jumbotron Section */
 .jumbotron {
-	background: url("../Images/backgrounds/Back (19).jpg") center center;
+	background: url("../Images/backgrounds/Back (19).webp") center center;
 	background-size: cover;
 	padding: 30px;
 	margin: 20px auto;
@@ -88,7 +88,7 @@ body.routes-page {
 .row {
 	display: flex;
 	gap: 20px;
-	background: url("../Images/backgrounds/Back (19).jpg") center center;
+	background: url("../Images/backgrounds/Back (19).webp") center center;
 	background-size: cover;
 	padding: 30px;
 	border-radius: 10px;
