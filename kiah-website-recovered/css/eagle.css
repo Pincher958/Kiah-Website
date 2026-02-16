@@ -7,19 +7,67 @@ body.routes-page {
 
 /* Top Section */
 .topsection {
-	background: url("../Images/Eagle/carrierbgd2.webp") no-repeat center center;
-	background-size: 100% 100%;
-	padding: 20px;
+	background: url("../Images/Eagle/carrierbgd2.webp") no-repeat center top;
+	background-size: 100% auto;
+	padding: 10px 30px;
+	padding-bottom: 15px;
 	margin: 20px auto;
+	margin-top: 45px; /* Clear fixed header and menus */
 	max-width: 1200px;
+	width: 100%;
 	border-radius: 10px;
+	position: relative;
+	z-index: 100;
+	min-height: auto !important;
+	box-sizing: border-box;
+	border: 4px solid white;
+}
+
+/* Override global section styles for topsection */
+section.topsection {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	min-height: auto;
+}
+
+/* Ensure first section does not inherit full-viewport spacing */
+body.routes-page > section.topsection {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	min-height: auto;
+}
+
+.topsection br {
+	display: block;
+	content: "";
+	margin: 5px 0;
+}
+
+.topsection img {
+	max-width: 60%;
+	height: auto;
+	display: inline-block;
+}
+
+/* Music Player */
+.music-player {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 8px 12px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
 }
 
 .page-header {
 	color: white;
 	text-align: center;
 	font-size: 2.5rem;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	text-shadow:
 		2px 2px 8px black,
 		0 0 10px black,
@@ -28,7 +76,8 @@ body.routes-page {
 
 .topsection p {
 	color: white;
-	margin: 5px 0;
+	margin: 2px 0;
+	line-height: 1.3;
 	text-shadow:
 		2px 2px 6px black,
 		0 0 8px black,
@@ -83,6 +132,7 @@ body.routes-page {
 	max-width: 1200px;
 	margin: 20px auto;
 	padding: 20px;
+	padding-bottom: calc(100vh - 80px); /* Allow scrolling under header */
 }
 
 .row {
@@ -166,6 +216,7 @@ body.routes-page {
 	height: auto !important;
 	width: auto !important;
 	object-fit: contain;
+	image-orientation: from-image;
 }
 
 hr {
@@ -220,6 +271,34 @@ hr {
 }
 
 @media (max-width: 768px) {
+	/* Reposition music player below text on smaller screens */
+	.topsection-content {
+		margin-bottom: 50px;
+	}
+
+	.music-player {
+		position: relative;
+		bottom: auto;
+		left: 0;
+		margin-top: 15px;
+		justify-content: flex-start;
+		padding: 6px 10px;
+	}
+
+	.music-player button {
+		font-size: 16px !important;
+		padding: 4px 6px !important;
+	}
+
+	.music-player span {
+		font-size: 10px !important;
+	}
+
+	.topsection {
+		padding-bottom: 25px;
+		min-height: auto;
+	}
+
 	.jumbotron {
 		padding: 20px 15px;
 		margin: 20px 10px;
@@ -285,6 +364,33 @@ hr {
 }
 
 @media (max-width: 480px) {
+	.topsection-content {
+		margin-bottom: 45px;
+	}
+
+	.music-player {
+		margin-top: 12px;
+		padding: 5px 8px;
+		gap: 3px;
+	}
+
+	.music-player button {
+		font-size: 14px !important;
+		padding: 3px 5px !important;
+	}
+
+	.music-player span {
+		font-size: 9px !important;
+		margin-left: 3px !important;
+	}
+
+	.topsection {
+		padding: 15px 10px;
+		padding-bottom: 20px;
+		margin: 10px 5px;
+		min-height: auto;
+	}
+
 	.jumbotron {
 		padding: 15px 10px;
 		margin: 10px 5px;
@@ -309,11 +415,6 @@ hr {
 	.Ensign img {
 		width: 90px !important;
 		height: 108px !important;
-	}
-
-	.topsection {
-		padding: 15px 10px;
-		margin: 10px 5px;
 	}
 
 	.page-header {

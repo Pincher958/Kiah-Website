@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>H.M.S. Eagle</title>
 		<link rel="stylesheet" href="css/global.css" />
 		<link rel="stylesheet" href="css/routes.css" />
@@ -16,16 +17,47 @@
 		<div id="header"></div>
 
 		<section class="topsection">
-			<h1 class="page-header">H.M.S. EAGLE</h1>
-			<p style="text-align: center">The Navy Lark</p>
-			<p style="text-align: center">"Left hand down a bit"</p>
-			<p style="text-align: center">
-				Joined 14th May 1964 and left her 7th November 1966
-			</p>
+			<div class="topsection-content">
+				<h1 class="page-header">H.M.S. EAGLE</h1>
+				<p style="text-align: center">The Navy Lark</p>
+				<p style="text-align: center">"Left hand down a bit"</p>
+				<p style="text-align: center">
+					Joined 14th May 1964 and left her 7th November 1966
+				</p>
+			</div>
+			
+			<!-- Royal Marine Music Player -->
+			<audio id="marineMusic" src="Images/Eagle/20 Hearts of Oak _ A Life On the Oce.mp3" preload="metadata"></audio>
+			<div class="music-player">
+				<button onclick="document.getElementById('marineMusic').play()" 
+					style="background: #003366; border: none; cursor: pointer; font-size: 18px; padding: 5px 8px; border-radius: 3px; transition: all 0.2s; color: white;" 
+					onmouseover="this.style.background='#004488'" 
+					onmouseout="this.style.background='#003366'"
+					title="Play Royal Marine Music">
+					▶️
+				</button>
+				<button onclick="document.getElementById('marineMusic').pause()" 
+					style="background: #003366; border: none; cursor: pointer; font-size: 18px; padding: 5px 8px; border-radius: 3px; transition: all 0.2s; color: white;" 
+					onmouseover="this.style.background='#004488'" 
+					onmouseout="this.style.background='#003366'"
+					title="Pause">
+					⏸️
+				</button>
+				<button onclick="var music = document.getElementById('marineMusic'); music.pause(); music.currentTime = 0;" 
+					style="background: #003366; border: none; cursor: pointer; font-size: 18px; padding: 5px 8px; border-radius: 3px; transition: all 0.2s; color: white;" 
+					onmouseover="this.style.background='#004488'" 
+					onmouseout="this.style.background='#003366'"
+					title="Stop">
+					⏹️
+				</button>
+				<span style="font-size: 11px; color: white; font-weight: bold; margin-left: 5px;">
+					🎵 A Life On The Ocean Waves
+				</span>
+			</div>
 		</section>
 
 		<div class="jumbotron">
-			<div class="jumbotron-container">
+			<div class="jumbotron-container" style="position: relative;">
 				<!-- HMS Eagle Crest - Clickable image opens in lightbox -->
 				<div class="Crest">
 				<img src="Images/Eagle/Crest large_thumb.webp" data-full="Images/Eagle/Crest large.webp"
@@ -59,7 +91,8 @@
 				<div class="Ensign">
 					<a
 						href="Images/Eagle/united-kingdom-british-flag.webp"
-						data-lightbox="Ensign"
+						class="glightbox"
+						data-gallery="Ensign"
 						data-title="White Ensign"
 					>
 						<img
