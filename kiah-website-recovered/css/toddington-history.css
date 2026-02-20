@@ -10,17 +10,21 @@ body.routes-page {
 	background: url("../Images/backgrounds/Back (19).webp") no-repeat center
 		center;
 	background-size: 100% 100%;
-	padding: 20px;
+	padding: 8px;
 	margin: 20px auto;
+	margin-top: 20px;
+	margin-bottom: 10px; /* Section wrapper provides the top spacing */
 	max-width: 1200px;
 	border-radius: 10px;
+	position: relative;
+	z-index: 100;
 }
 
 .page-header {
 	color: white;
 	text-align: center;
-	font-size: 2.5rem;
-	margin-bottom: 10px;
+	font-size: 1.8rem;
+	margin-bottom: 2px;
 	text-shadow:
 		2px 2px 8px black,
 		0 0 10px black,
@@ -29,7 +33,7 @@ body.routes-page {
 
 .topsection p {
 	color: white;
-	margin: 5px 0;
+	margin: 0;
 	text-shadow:
 		2px 2px 6px black,
 		0 0 8px black,
@@ -136,7 +140,7 @@ hr {
 
 @media (max-width: 768px) {
 	.page-header {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.topsection p {

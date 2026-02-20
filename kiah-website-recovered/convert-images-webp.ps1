@@ -1,10 +1,14 @@
 param(
-    [string]$ImagesPath = "f:\Kiah Website Backup\kiah-website-recovered\Images",
+    [string]$ImagesPath = "",
     [int]$Quality = 85,
     [switch]$DeleteOriginals = $false,
     [switch]$DryRun = $false,
-    [switch]$BackupFirst = $true
+    [bool]$BackupFirst = $true
 )
+
+if (-not $ImagesPath) {
+    $ImagesPath = Join-Path $PSScriptRoot "Images"
+}
 
 Write-Host ""
 Write-Host "=== WebP Image Converter ===" -ForegroundColor Cyan
@@ -35,7 +39,7 @@ if (-not $magickCmd) {
 $imageExtensions = @('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tif', '.jfif', '.THM')
 
 if ($BackupFirst -and -not $DryRun) {
-    $backupPath = "f:\Kiah Website Backup\kiah-website-recovered\Images_Backup_$(Get-Date -Format 'yyyyMMdd_HHmmss')"
+    $backupPath = Join-Path $PSScriptRoot "Images_Backup_$(Get-Date -Format 'yyyyMMdd_HHmmss')"
     Write-Host "Creating backup at: $backupPath" -ForegroundColor Yellow
     Write-Host "This may take a while..." -ForegroundColor Yellow
     Copy-Item -Path $ImagesPath -Destination $backupPath -Recurse -Force
@@ -59,7 +63,7 @@ $totalOriginalSize = 0
 $totalWebPSize = 0
 $startTime = Get-Date
 
-$logFile = "f:\Kiah Website Backup\kiah-website-recovered\webp-conversion-log.txt"
+$logFile = Join-Path $PSScriptRoot "webp-conversion-log.txt"
 "WebP Conversion Log - $(Get-Date)" | Out-File $logFile
 "================================" | Out-File $logFile -Append
 "" | Out-File $logFile -Append
@@ -83,7 +87,7 @@ foreach ($file in $imageFiles) {
         } else {
             Write-Host "Converting: $($file.Name) " -NoNewline
             
-            $result = & $magickCmd convert "$($file.FullName)" -quality $Quality "$webpPath" 2>&1
+            & $magickCmd convert "$($file.FullName)" -quality $Quality "$webpPath" 2>&1 | Out-Null
             
             if ($LASTEXITCODE -eq 0 -and (Test-Path $webpPath)) {
                 $webpSize = (Get-Item $webpPath).Length

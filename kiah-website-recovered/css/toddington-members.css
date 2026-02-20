@@ -9,15 +9,21 @@ body.routes-page {
 .place-page {
 	width: 70vw;
 	margin: 20px auto;
+	margin-top: 20px; /* Section wrapper provides the top spacing */
 	padding: 20px;
+	padding-bottom: calc(
+		100vh - 80px
+	); /* Full viewport minus footer - allows content to scroll under header */
+	position: relative;
+	z-index: 100;
 }
 
 .place-header {
 	background: url("../Images/backgrounds/Back (19).webp") no-repeat center
 		center;
 	background-size: 100% 100%;
-	padding: 30px;
-	margin-bottom: 20px;
+	padding: 8px;
+	margin-bottom: 10px;
 	border-radius: 10px;
 	display: flex;
 	justify-content: space-between;
@@ -26,7 +32,7 @@ body.routes-page {
 
 .place-header h1 {
 	color: white;
-	font-size: 2.5rem;
+	font-size: 1.8rem;
 	margin: 0;
 	text-shadow:
 		2px 2px 8px black,
@@ -110,30 +116,26 @@ body.routes-page {
 .lads-gallery-container {
 	flex: 1;
 	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	align-items: flex-end;
+}
+
+/* Individual image column with heading */
+.lads-image-column {
+	display: flex;
 	flex-direction: column;
 	gap: 10px;
+	align-items: center;
 }
 
 /* Gallery Headings */
-.lads-gallery-headings {
-	display: grid;
-	grid-template-columns: repeat(2, 200px);
-	gap: 20px;
-}
-
 .lads-heading {
 	text-align: center;
 	font-size: 1.2rem;
 	font-weight: bold;
 	padding: 5px;
-}
-
-/* Right Column - 2-Image Gallery Grid (1 row, 2 columns) */
-.lads-gallery {
-	display: grid;
-	grid-template-columns: repeat(2, 200px);
-	gap: 20px;
-	align-items: start;
+	width: 200px;
 }
 
 /* Image Box */
@@ -164,6 +166,7 @@ body.routes-page {
 	cursor: pointer;
 	transition: transform 0.3s ease;
 	display: block;
+	image-orientation: from-image;
 }
 
 .lads-image-box img:hover {
@@ -180,21 +183,68 @@ body.routes-page {
 @media (max-width: 1200px) {
 	.lads-info {
 		flex: 0 0 150px;
+		height: 150px;
+	}
+
+	.lads-image-box {
+		width: 150px;
+		height: 150px;
+	}
+
+	.lads-heading {
+		width: 150px;
 	}
 }
 
 @media (max-width: 768px) {
+	.place-page {
+		width: 90vw;
+	}
+
 	.lads-row {
 		flex-direction: column;
+		align-items: center;
+		padding: 15px;
 	}
 
 	.lads-info {
-		flex: 1;
+		flex: 0 0 auto;
+		width: 100%;
+		max-width: 300px;
+		height: auto;
+		min-height: 100px;
 	}
 
-	/* Stack columns vertically on mobile */
-	.lads-gallery {
-		grid-template-columns: 1fr;
-		grid-template-rows: auto;
+	.lads-gallery-container {
+		width: 100%;
+		max-width: 300px;
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+
+	.lads-image-column {
+		width: 100%;
+		max-width: 250px;
+		align-items: center;
+	}
+
+	.lads-heading {
+		width: 100%;
+		max-width: 250px;
+		font-size: 1rem;
+	}
+
+	.lads-image-box {
+		width: 250px;
+		height: 250px;
+	}
+
+	.lads-image-box img {
+		max-width: 100%;
+		max-height: 100%;
+		width: auto;
+		height: auto;
+		object-fit: contain;
 	}
 }

@@ -1,6 +1,10 @@
 param(
-    [string]$ImagesPath = "f:\Kiah Website Backup\kiah-website-recovered\Images"
+    [string]$ImagesPath = ""
 )
+
+if (-not $ImagesPath) {
+    $ImagesPath = Join-Path $PSScriptRoot "Images"
+}
 
 Write-Host ""
 Write-Host "=== WebP Migration Safety Check ===" -ForegroundColor Cyan

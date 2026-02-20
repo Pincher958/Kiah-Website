@@ -1,7 +1,12 @@
 param(
-    [string]$ImagesPath = "f:\Kiah Website Backup\kiah-website-recovered\Images",
-    [switch]$DryRun = $false
+    [string]$ImagesPath = "",
+    [switch]$DryRun = $false,
+    [switch]$Force = $false
 )
+
+if (-not $ImagesPath) {
+    $ImagesPath = Join-Path $PSScriptRoot "Images"
+}
 
 Write-Host ""
 Write-Host "=== Original Image Deletion Tool ===" -ForegroundColor Cyan
@@ -13,8 +18,10 @@ if ($DryRun) {
     Write-Host "⚠ WARNING: This will PERMANENTLY DELETE original image files!" -ForegroundColor Red
     Write-Host "WebP and thumbnail versions will be kept." -ForegroundColor Yellow
     Write-Host ""
-    Write-Host "Press CTRL+C to cancel or any other key to continue..." -ForegroundColor Yellow
-    $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+    if (-not $Force) {
+        Write-Host "Press CTRL+C to cancel or any other key to continue..." -ForegroundColor Yellow
+        $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+    }
 }
 
 Write-Host ""
@@ -34,7 +41,7 @@ $totalSize = 0
 $deletedFiles = @()
 $startTime = Get-Date
 
-$logFile = "f:\Kiah Website Backup\kiah-website-recovered\deleted-images-log.txt"
+$logFile = Join-Path $PSScriptRoot "deleted-images-log.txt"
 if (-not $DryRun) {
     "Original Image Deletion Log - $(Get-Date)" | Out-File $logFile
     "================================" | Out-File $logFile -Append

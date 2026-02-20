@@ -9,18 +9,33 @@ body.routes-page {
 .topsection {
 	background: url("../Images/backgrounds/Back (19).webp") no-repeat center
 		center;
-	background-size: 100% 100%;
-	padding: 20px;
-	margin: 20px auto;
+	background-size: cover;
+	padding: 5px 20px 5px 20px;
+	margin: 20px auto 10px;
+	margin-top: 45px;
 	max-width: 1200px;
 	border-radius: 10px;
+	position: relative;
+	z-index: 100;
+}
+
+/*.topsection br {
+	display: block;
+	content: "";
+	margin: 2px 0;
+}*/
+
+.topsection img {
+	max-width: 60%;
+	height: ;
+	display: inline-block;
 }
 
 .page-header {
 	color: white;
 	text-align: center;
-	font-size: 2.5rem;
-	margin-bottom: 10px;
+	font-size: 1.8rem;
+	margin-bottom: 2px;
 	text-shadow:
 		2px 2px 8px black,
 		0 0 10px black,
@@ -29,7 +44,7 @@ body.routes-page {
 
 .topsection p {
 	color: white;
-	margin: 5px 0;
+	margin: 0;
 	text-shadow:
 		2px 2px 6px black,
 		0 0 8px black,
@@ -40,8 +55,10 @@ body.routes-page {
 /* Two Column Layout */
 .text {
 	max-width: 1200px;
-	margin: 20px auto;
+	margin: 5px auto 20px;
 	padding: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 /* Jumbotron Section */
@@ -83,6 +100,26 @@ body.routes-page {
 	border-radius: 10px;
 	align-items: flex-start;
 	border: 4px solid white;
+}
+
+/* Welcome Container - separate from menu */
+.welcome-container {
+	background: url("../Images/backgrounds/Back (19).webp") center center;
+	background-size: cover;
+	padding: 30px;
+	border-radius: 10px;
+	border: 4px solid white;
+	margin-top: 20px;
+	color: white;
+}
+
+.welcome-container h2 {
+	margin-bottom: 15px;
+}
+
+.welcome-container p {
+	margin-bottom: 15px;
+	line-height: 1.6;
 }
 
 /* Left Column - Vertical Menu */
@@ -165,8 +202,25 @@ hr {
 }
 
 @media (max-width: 768px) {
+	body.routes-page {
+		padding-top: 80px;
+	}
+	
+	.topsection {
+		margin-top: 20px;
+	}
+	
+	.jumbotron {
+		margin-top: 0;
+	}
+	
+	.text {
+		margin-top: 0;
+		padding-top: 20px;
+	}
+
 	.page-header {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.topsection p {
@@ -181,4 +235,5 @@ hr {
 		padding: 10px 15px;
 		font-size: 0.9rem;
 	}
+}
 }

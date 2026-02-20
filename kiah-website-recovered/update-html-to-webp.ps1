@@ -1,8 +1,12 @@
 param(
-    [string]$WebsitePath = "f:\Kiah Website Backup\kiah-website-recovered",
+    [string]$WebsitePath = "",
     [switch]$DryRun = $false,
     [switch]$BackupFirst = $true
 )
+
+if (-not $WebsitePath) {
+    $WebsitePath = $PSScriptRoot
+}
 
 Write-Host ""
 Write-Host "=== HTML Image Reference Updater ===" -ForegroundColor Cyan
@@ -18,7 +22,8 @@ if ($BackupFirst -and -not $DryRun) {
     Write-Host "Creating backup of HTML and CSS files..." -ForegroundColor Yellow
     New-Item -Path $backupPath -ItemType Directory -Force | Out-Null
     
-    Get-ChildItem -Path $WebsitePath -Include *.html,*.css -Recurse | ForEach-Object {
+    $searchPath = Join-Path $WebsitePath "*"
+    Get-ChildItem -Path $searchPath -Recurse -File -Include *.html,*.css | ForEach-Object {
         $relativePath = $_.FullName.Substring($WebsitePath.Length + 1)
         $backupFile = Join-Path $backupPath $relativePath
         $backupDir = Split-Path $backupFile -Parent
@@ -34,8 +39,9 @@ if ($BackupFirst -and -not $DryRun) {
 }
 
 Write-Host "Scanning for HTML and CSS files..." -ForegroundColor Cyan
-$files = Get-ChildItem -Path $WebsitePath -Include *.html,*.css -Recurse | Where-Object {
-    $_.FullName -notlike "*Backup*"
+$searchPath = Join-Path $WebsitePath "*"
+$files = Get-ChildItem -Path $searchPath -Recurse -File -Include *.html,*.css | Where-Object {
+    $_.FullName -notmatch "[\\/]HTML_Backup_|[\\/]Images_Backup_"
 }
 
 $totalFiles = $files.Count

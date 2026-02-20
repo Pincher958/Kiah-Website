@@ -4,3 +4,15 @@ body.routes-page {
 		center fixed;
 	background-size: cover;
 }
+
+.azores-subpages {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-top: 20px;
+}
+
+.azores-subpages .route-button {
+	font-size: 1rem;
+	padding: 10px 18px;
+}

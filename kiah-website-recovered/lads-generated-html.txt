@@ -1,0 +1,3793 @@
+﻿					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Peter (Ali) Barber</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Ali Barber/Ali a.webp"
+										alt="Peter (Ali) Barber"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Ali Barber/Ali b.webp"
+										alt="Peter (Ali) Barber"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Keith (Barney) Barnes</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Keith Barnes/298725222_10160344918321228_7283585289584897724_n.webp"
+										alt="Keith (Barney) Barnes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Keith Barnes/Barney a.webp"
+										alt="Keith (Barney) Barnes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Keith Barnes/Barney c.webp"
+										alt="Keith (Barney) Barnes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Keith Barnes/Keith Barnes 1.webp"
+										alt="Keith (Barney) Barnes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Peter (Bazzers) Bastock</h3>
+							<p class="lads-rank">RO2(T)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Bastock/Bassers Bastock1.webp"
+										alt="Peter (Bazzers) Bastock"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Colin Baxter</h3>
+							<p class="lads-rank">RS</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Colin Baxter/ColinBaxter a.webp"
+										alt="Colin Baxter"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">John (Blacky) Blackwell</h3>
+							<p class="lads-rank">CY</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Blacky Blackwell/Blacky on flag deck.webp"
+										alt="John (Blacky) Blackwell"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Blacky Blackwell/Blacky on flag decka.webp"
+										alt="John (Blacky) Blackwell"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Glen (Sam) Blyth</h3>
+							<p class="lads-rank">RO2(?)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Sam Blyth/Sam Blyth1.webp"
+										alt="Glen (Sam) Blyth"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Ian Body</h3>
+							<p class="lads-rank">RO3(T)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Ian Body/1. Ian Grant Bungy Edwards Ian Body.webp"
+										alt="Ian Body"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Ian Body/Ian Boddy 1.webp"
+										alt="Ian Body"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">David (Tiny) Brighton</h3>
+							<p class="lads-rank">RO2(G)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dave Brighton/12045453_10153697353441228_768009195192142003_o.webp"
+										alt="David (Tiny) Brighton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dave Brighton/22467400_10155761943346228_3807549419202716014_o.webp"
+										alt="David (Tiny) Brighton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dave Brighton/300798896_10160366822031228_1274617059378383481_n.webp"
+										alt="David (Tiny) Brighton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dave Brighton/887547_10153694625711228_4525641018642141865_o.webp"
+										alt="David (Tiny) Brighton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dave Brighton/DaveB1.webp"
+										alt="David (Tiny) Brighton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dave Brighton/DaveB10.webp"
+										alt="David (Tiny) Brighton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Reginald (Buster) Brown</h3>
+							<p class="lads-rank">RO2(G)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Reggie Brown/Reg2.webp"
+										alt="Reginald (Buster) Brown"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Reggie Brown/Reg3.webp"
+										alt="Reginald (Buster) Brown"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Rodney (Chippy) Carpenter</h3>
+							<p class="lads-rank">RO2(T)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chippy Carpenter/297668192_10160337356291228_5227392733912459219_n.webp"
+										alt="Rodney (Chippy) Carpenter"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chippy Carpenter/Chippy 1.webp"
+										alt="Rodney (Chippy) Carpenter"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chippy Carpenter/Chippy 2.webp"
+										alt="Rodney (Chippy) Carpenter"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chippy Carpenter/Chippy 3.webp"
+										alt="Rodney (Chippy) Carpenter"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Frank (Woggers) Chadwick</h3>
+							<p class="lads-rank">RO2(G)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Frank Chadwick/AlTexFrank.webp"
+										alt="Frank (Woggers) Chadwick"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Frank Chadwick/Frank 1.webp"
+										alt="Frank (Woggers) Chadwick"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Frank Chadwick/Frank1.webp"
+										alt="Frank (Woggers) Chadwick"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Frank Chadwick/Frank2.webp"
+										alt="Frank (Woggers) Chadwick"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Frank Chadwick/Frank3.webp"
+										alt="Frank (Woggers) Chadwick"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Frank Chadwick/Frank4.webp"
+										alt="Frank (Woggers) Chadwick"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Chris Childs</h3>
+							<p class="lads-rank">RO2(?)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Childs/ChrisC1.webp"
+										alt="Chris Childs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Childs/ChrisC2.webp"
+										alt="Chris Childs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Childs/ChrisC3.webp"
+										alt="Chris Childs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Childs/ChrisC4.webp"
+										alt="Chris Childs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Childs/ChrisC5.webp"
+										alt="Chris Childs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Childs/ChrisC6.webp"
+										alt="Chris Childs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Peter (Nobby) Clarke</h3>
+							<p class="lads-rank">RO2(T)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Nobby Clarke/299663571_10160356341916228_8286639114008418703_n (1).webp"
+										alt="Peter (Nobby) Clarke"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Nobby Clarke/Nobby(1).webp"
+										alt="Peter (Nobby) Clarke"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Lindsay John (Charlie) Cosker</h3>
+							<p class="lads-rank">LRO(T)</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lyndsey John Cosker/01 Charlie Oscar and Roger Hopkins on flag deck.webp"
+										alt="Lindsay John (Charlie) Cosker"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lyndsey John Cosker/57cff9fd8078e20d3d2bf33a9a0b33b4.webp"
+										alt="Lindsay John (Charlie) Cosker"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lyndsey John Cosker/Charlie and Mac.webp"
+										alt="Lindsay John (Charlie) Cosker"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lyndsey John Cosker/Charlie Cosker.webp"
+										alt="Lindsay John (Charlie) Cosker"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lyndsey John Cosker/Charlie Oscar2.webp"
+										alt="Lindsay John (Charlie) Cosker"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lyndsey John Cosker/CharlieOscar99.webp"
+										alt="Lindsay John (Charlie) Cosker"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Roger Dunt</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Roger Dunt/1.webp"
+										alt="Roger Dunt"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Colin Ellis</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Colin Ellis/2002Reg&ChadWeymouth.webp"
+										alt="Colin Ellis"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Colin Ellis/Chad Ellis1.webp"
+										alt="Colin Ellis"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Colin Ellis/Chad on Lantowi.webp"
+										alt="Colin Ellis"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Colin Ellis/Reunion 1.webp"
+										alt="Colin Ellis"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Dick Fish</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dick Fish/Dick Fish on the Bridge.webp"
+										alt="Dick Fish"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dick Fish/Dickie Fish, Me & Another (2013_09_13 08_55_57 UTC).webp"
+										alt="Dick Fish"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Florrie Ford</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Florrie Ford/IMG-4226.webp"
+										alt="Florrie Ford"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Florrie Ford/IMG-4229.webp"
+										alt="Florrie Ford"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Pete Fox</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Fox/image0.webp"
+										alt="Pete Fox"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Fox/Pete Fox 1.webp"
+										alt="Pete Fox"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Fox/Pete&Caren 1.webp"
+										alt="Pete Fox"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Barry Frere</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Barry Frere/230655631_10226136072495478_6423439989966040925_n.webp"
+										alt="Barry Frere"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Pete Gamble</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Gamble/Pete Gamble - 3.webp"
+										alt="Pete Gamble"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Gamble/Reunion 1.webp"
+										alt="Pete Gamble"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Dave Goldfinch</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dave Goldfinch/01 Gerry Sharp, Dave Goldfinch  Bassers  Bastock, Dick Richards Eagle 1965 2.webp"
+										alt="Dave Goldfinch"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Geoff Gordon</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Geoff Gordon/JeffGeoffClipped.webp"
+										alt="Geoff Gordon"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Ian Grant</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Ian Grant/2. Ian Grant Ganges 1963.webp"
+										alt="Ian Grant"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Ian Grant/3. Ian Grant on Flag Deck.webp"
+										alt="Ian Grant"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Ian Grant/4. Jock Cree & Ian Grant.webp"
+										alt="Ian Grant"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Bob Gregory</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bob Gregory/After divisions.webp"
+										alt="Bob Gregory"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bob Gregory/Bob 6 years old.webp"
+										alt="Bob Gregory"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bob Gregory/Bob Flint 1.webp"
+										alt="Bob Gregory"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bob Gregory/Bob Flint 1965 - 2.webp"
+										alt="Bob Gregory"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bob Gregory/Bob Flint.webp"
+										alt="Bob Gregory"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bob Gregory/Bob Gregory.webp"
+										alt="Bob Gregory"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Barry Haines</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Barry Haines/01 Basher Hains & Dick Richards.webp"
+										alt="Barry Haines"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Barry Haines/Bash in Gibraltar 1.webp"
+										alt="Barry Haines"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Barry Haines/Basher 4.webp"
+										alt="Barry Haines"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Harry Harrison</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Harry Harrison/Harry the blade 1.webp"
+										alt="Harry Harrison"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Charlie Herridge</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Charlie Herridge/01 Charlie Herridge Bill Todd & Dave Bighton.webp"
+										alt="Charlie Herridge"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Charlie Herridge/Charlie Herridge 1.webp"
+										alt="Charlie Herridge"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Eddie Herron</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Eddie Herron/2004 Reunion-Eddie.webp"
+										alt="Eddie Herron"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Eddie Herron/Eddie 6yrs old 1954 school.webp"
+										alt="Eddie Herron"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Eddie Herron/eddieflagdeckeagle1967.webp"
+										alt="Eddie Herron"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Eddie Herron/Eddiemsoeagle1967.webp"
+										alt="Eddie Herron"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Eddie Herron/msoeagle2 (1).webp"
+										alt="Eddie Herron"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Roger Hopkins</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Roger Hopkins/Roger Hopkins At School2.webp"
+										alt="Roger Hopkins"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Roger Hopkins/Roger Hopkins RO54th At 2007.webp"
+										alt="Roger Hopkins"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Roger Hopkins/Roger Hopkins RO54th.webp"
+										alt="Roger Hopkins"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Chris Howard</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Howard/297668192_10160337356291228_5227392733912459219_n.webp"
+										alt="Chris Howard"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Howard/302425763_739068563855491_761687000860939318_n.webp"
+										alt="Chris Howard"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Chris Howard/32929988_10156376794121228_9032662032779837440_n.webp"
+										alt="Chris Howard"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Father Jones</h3>
+							<p class="lads-rank">Padre</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Father Jones/Father Jones Eagle 64 - 66.webp"
+										alt="Father Jones"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Alan Keenes</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Keenes/Alk a.webp"
+										alt="Alan Keenes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Keenes/Alk b .webp"
+										alt="Alan Keenes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Keenes/Alk c.webp"
+										alt="Alan Keenes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Keenes/Alk d.webp"
+										alt="Alan Keenes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Keenes/Alk e.webp"
+										alt="Alan Keenes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Keenes/Alk f.webp"
+										alt="Alan Keenes"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Noddy Knot</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Noddy Knot/Chris Damon and Noddy.webp"
+										alt="Noddy Knot"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Noddy Knot/Reunion 1.webp"
+										alt="Noddy Knot"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Alan Langler</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Langler/01 Alan & Tex on Flag Deck.webp"
+										alt="Alan Langler"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Langler/Alan Langler  Eagle 64a.webp"
+										alt="Alan Langler"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Langler/Alan.webp"
+										alt="Alan Langler"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Roger Lawrence</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Roger Lawrence/298748582_10160252128773216_3814206042268176032_n.webp"
+										alt="Roger Lawrence"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Roger Lawrence/298784158_10160252128923216_7595085571530726418_n.webp"
+										alt="Roger Lawrence"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Roger Lawrence/299792627_10167059385700422_8732473393081514733_n.webp"
+										alt="Roger Lawrence"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Pete Legg</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Legg/299188264_10160351007701228_3627591950643316115_n1.webp"
+										alt="Pete Legg"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Legg/Baby Peter.webp"
+										alt="Pete Legg"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Legg/Pete Legg HMS Eagle 1966.webp"
+										alt="Pete Legg"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Legg/Pete Legg on Roath Park Lake 1961.webp"
+										alt="Pete Legg"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Legg/Pete Legg.webp"
+										alt="Pete Legg"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Johnny Mackin</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Johnny Mackin/Johnny Mackin ex Eagle - 2.webp"
+										alt="Johnny Mackin"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Alan Martin</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Martin/298586565_10160343241816228_147801956694036602_n.webp"
+										alt="Alan Martin"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Martin/Alan (2).webp"
+										alt="Alan Martin"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Martin/Alan (4).webp"
+										alt="Alan Martin"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Martin/Alan Birthday 1 (2013_09_12 17_29_49 UTC).webp"
+										alt="Alan Martin"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Martin/Alan Birthday3 (2013_09_13 07_08_42 UTC).webp"
+										alt="Alan Martin"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Alan Martin/Alan Birthday4 (2013_09_12 17_29_49 UTC).webp"
+										alt="Alan Martin"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Neil McCloghlan</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Neil McCloghlan/Mac & Bob Flint.webp"
+										alt="Neil McCloghlan"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Neil McCloghlan/Slinger Woods, Mombassa - 2.webp"
+										alt="Neil McCloghlan"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Neil McCloghlan/Wedding 001 (2013_09_13 08_55_57 UTC).webp"
+										alt="Neil McCloghlan"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Bob McGlennan</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bob McGlennan/Bob McGlennan 1.webp"
+										alt="Bob McGlennan"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Colin Mowles</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Colin Mowles/A good run ashore (Mowler again with Lou, Reg too) (2013_09_13 08_55_57 UTC).webp"
+										alt="Colin Mowles"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Colin Mowles/Bazzers and Mowler Eagle 1966 (2013_09_13 08_55_57 UTC).webp"
+										alt="Colin Mowles"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Colin Mowles/Mowler1.webp"
+										alt="Colin Mowles"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Muzz Murray</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Muzz Murray/Fred Fox, Slinger Woods, Lew Rowson & Muz Murray Eagle 1965 with names.webp"
+										alt="Muzz Murray"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Muzz Murray/Muzz 1.webp"
+										alt="Muzz Murray"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Muzz Murray/Muzz as a kid.webp"
+										alt="Muzz Murray"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Muzz Murray/Muzz&JohnnyMacB (2).webp"
+										alt="Muzz Murray"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Muzz Murray/Muzz1.webp"
+										alt="Muzz Murray"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Muzz Murray/MuzzFrank.webp"
+										alt="Muzz Murray"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Sandy Nabbs</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Sandy Nabbs/3.webp"
+										alt="Sandy Nabbs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Sandy Nabbs/Reunion 1.webp"
+										alt="Sandy Nabbs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Sandy Nabbs/Sandy 1.webp"
+										alt="Sandy Nabbs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Sandy Nabbs/Sandy Nabbs 1.webp"
+										alt="Sandy Nabbs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Sandy Nabbs/Sandy Nabbs 2.webp"
+										alt="Sandy Nabbs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Sandy Nabbs/Sandy&Bill.webp"
+										alt="Sandy Nabbs"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Bruce Pavier</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bruce Pavier/Blackie & Bruce Pavier (2013_09_12 17_29_49 UTC).webp"
+										alt="Bruce Pavier"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bruce Pavier/Bruce 1.webp"
+										alt="Bruce Pavier"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Pete Phillips</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Phillips/The lads 99.webp"
+										alt="Pete Phillips"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Priggey Price</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Priggey Price/297668192_10160337356291228_5227392733912459219_n.webp"
+										alt="Priggey Price"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Priggey Price/Reunion 1.webp"
+										alt="Priggey Price"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Dick Richards</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dick Richards/Dick Richards 1.webp"
+										alt="Dick Richards"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Lou Rowson</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lou Rowson/Group with Lou.webp"
+										alt="Lou Rowson"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lou Rowson/Lou 1.webp"
+										alt="Lou Rowson"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lou Rowson/Lou, Scouse, Chippy and Bob 1.webp"
+										alt="Lou Rowson"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Lou Rowson/Reunion 1.webp"
+										alt="Lou Rowson"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Tex Scott</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Tex Scott/300714415_10160366822406228_678726794078948617_n.webp"
+										alt="Tex Scott"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Tex Scott/AlTexFrank.webp"
+										alt="Tex Scott"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Tex Scott/DTsa.webp"
+										alt="Tex Scott"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Tex Scott/DTsb.webp"
+										alt="Tex Scott"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Tex Scott/DTsc.webp"
+										alt="Tex Scott"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Tex Scott/Tex 1.webp"
+										alt="Tex Scott"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Gerry Sharp</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Gerry Sharp/Charlie and Gerry Sharp.webp"
+										alt="Gerry Sharp"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Gerry Sharp/Gerry Sharp 2.webp"
+										alt="Gerry Sharp"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Gerry Sharp/Gerry Sharp 3.webp"
+										alt="Gerry Sharp"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Gerry Sharp/Gerry Sharp 4.webp"
+										alt="Gerry Sharp"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Gerry Sharp/Gerry Sharp1.webp"
+										alt="Gerry Sharp"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Jan Sheere</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jan Sheere/6F Mess Xmas 66 HMS Eagle.webp"
+										alt="Jan Sheere"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jan Sheere/Another mess deck pic2.webp"
+										alt="Jan Sheere"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jan Sheere/Jan Sheere 2.webp"
+										alt="Jan Sheere"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jan Sheere/JanSheere and Muzz1.webp"
+										alt="Jan Sheere"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Martin Slater</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Martin Slater/1516527320311.webp"
+										alt="Martin Slater"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Martin Slater/Martin Slater now.webp"
+										alt="Martin Slater"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Denis Smith</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Denis Smith/298705511_5944646815565371_5760691266659079583_n.webp"
+										alt="Denis Smith"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Denis Smith/Den & Margaret1.webp"
+										alt="Denis Smith"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Denis Smith/Den2.webp"
+										alt="Denis Smith"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Denis Smith/Denis behind Scouse Gaulton.webp"
+										alt="Denis Smith"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Pete Statton</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Statton/6F Mess Mob 1966 - 2.webp"
+										alt="Pete Statton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Statton/Pete Staton 1.webp"
+										alt="Pete Statton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Statton/Pete Staton 2.webp"
+										alt="Pete Statton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Pete Statton/Pete Staton 3.webp"
+										alt="Pete Statton"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Paul Strickland</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Paul Strickland/Paul Bleep Strickland.webp"
+										alt="Paul Strickland"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Dave Strickland</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Dave Strickland/Wedding 001 (2013_09_13 08_55_57 UTC).webp"
+										alt="Dave Strickland"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">George Temperley</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/George Temperley/0000-00-00 George T as young Blonde.webp"
+										alt="George Temperley"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/George Temperley/1955-00-00 Phoenicia George & Maltese Friend, Samute (2).webp"
+										alt="George Temperley"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/George Temperley/1955-01-25 Phoenicia George with his dog (2).webp"
+										alt="George Temperley"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/George Temperley/1957-05-00 A.A.F.C.E. Picture for British Boxing Mag (a).webp"
+										alt="George Temperley"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/George Temperley/1963-1964 Undaunted Divers George & Visitor.webp"
+										alt="George Temperley"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/George Temperley/2006-10-23  Yacht Georgia - George at Chart Table Hartlepool Marina Berth G10 14.webp"
+										alt="George Temperley"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Bill Todd</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bill Todd/01 Charlie Herridge Bill Todd & Dave Bighton.webp"
+										alt="Bill Todd"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bill Todd/01 Robet  McGlennan  & Bill Todd.webp"
+										alt="Bill Todd"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bill Todd/Bill & Bungy1.webp"
+										alt="Bill Todd"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bill Todd/Bill Todd .webp"
+										alt="Bill Todd"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bill Todd/Bill Todd1.webp"
+										alt="Bill Todd"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Bill Todd/Bill2.webp"
+										alt="Bill Todd"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Topsy Turner</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Topsy Turner/Topsey & Noddy1.webp"
+										alt="Topsy Turner"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Cliff Wade</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Cliff Wade/299193270_10160351010431228_8651700304693275901_n.webp"
+										alt="Cliff Wade"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Jeffery Williams</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jeffery Williams/01 Bassers, Tiff,  Bungy Pete Eagle 1966.webp"
+										alt="Jeffery Williams"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jeffery Williams/Bungy 1.webp"
+										alt="Jeffery Williams"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jeffery Williams/Bungy 4.webp"
+										alt="Jeffery Williams"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jeffery Williams/Bungy 5.webp"
+										alt="Jeffery Williams"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jeffery Williams/Bungy 6.webp"
+										alt="Jeffery Williams"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Jeffery Williams/Bungy 7.webp"
+										alt="Jeffery Williams"
+										data-gallery="eaglelads"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lads-row">
+						<div class="lads-info">
+							<h3 class="lads-name">Slinger Woods</h3>
+							<p class="lads-rank">Unknown</p>
+						</div>
+						<div class="lads-gallery-container">
+							<div class="lads-gallery-headings">
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As A Kid
+								</div>
+								<div
+									class="lads-heading lads-heading-span-4"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									In The Mob
+								</div>
+								<div
+									class="lads-heading"
+									style="color: darkgoldenrod; text-decoration: underline"
+								>
+									As An Old Git
+								</div>
+							</div>
+							<div class="lads-gallery">
+								<div class="lads-image-box">
+									<img
+										src="../Images/Eagle/The Lads/Slinger Woods/Slinger, Bleep, Charlie Oscar and .webp"
+										alt="Slinger Woods"
+										data-gallery="eaglelads"
+									/>
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+								<div class="lads-image-box">
+									<img src="" alt="" data-gallery="eaglelads" />
+								</div>
+							</div>
+						</div>
+					</div>
+

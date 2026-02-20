@@ -27,7 +27,7 @@
 			</div>
 			
 			<!-- Royal Marine Music Player -->
-			<audio id="marineMusic" src="Images/Eagle/20 Hearts of Oak _ A Life On the Oce.mp3" preload="metadata"></audio>
+			<audio id="marineMusic" src="Images/Eagle/20%20Hearts%20of%20Oak%20_%20A%20Life%20On%20the%20Oce.mp3" preload="metadata"></audio>
 			<div class="music-player">
 				<button onclick="document.getElementById('marineMusic').play()" 
 					style="background: #003366; border: none; cursor: pointer; font-size: 18px; padding: 5px 8px; border-radius: 3px; transition: all 0.2s; color: white;" 
@@ -53,7 +53,25 @@
 				<span style="font-size: 11px; color: white; font-weight: bold; margin-left: 5px;">
 					🎵 A Life On The Ocean Waves
 				</span>
+				<input type="range" min="0" max="100" value="10" id="volumeControl"
+					style="margin-left: 10px; vertical-align: middle; cursor: pointer;"
+					onchange="document.getElementById('marineMusic').volume = this.value / 100"
+					oninput="document.getElementById('marineMusic').volume = this.value / 100"
+					title="Volume control">
+				<span style="font-size: 11px; color: white; margin-left: 5px;">🔊</span>
 			</div>
+			<script>
+				document.addEventListener("DOMContentLoaded", function () {
+					const music = document.getElementById("marineMusic");
+					const volumeControl = document.getElementById("volumeControl");
+					const defaultVolume = 10;
+
+					if (!music || !volumeControl) return;
+
+					volumeControl.value = defaultVolume;
+					music.volume = defaultVolume / 100;
+				});
+			</script>
 		</section>
 
 		<div class="jumbotron">
@@ -115,9 +133,15 @@
 					<br /><br />
 					<a class="btn btn-default" href="TheMesses.html">Messdecks</a>
 					<br /><br />
+					<a class="btn btn-default" href="CommissioningBook.html"
+						>Commissioning Book</a
+					>
+					<br /><br />
 					<a class="btn btn-default" href="Ashore.html">Ashore</a>
 					<br /><br />
 					<a class="btn btn-default" href="linecross.html">Crossing The Line</a>
+					<br /><br />
+					<a class="btn btn-default" href="FlightDeck.html">Flight Deck</a>
 					<br /><br />
 					<a class="btn btn-default" href="Heloloss.html">Aircraft Accidents</a>
 					<br /><br />
@@ -260,7 +284,7 @@
 				/>
 							The now retired Cdr Gilchrist very kindly provided an introduction to our Eagle pages for us.
 						</p>
-						<p style="text-align: center; font-style: italic; color: white">
+						<p style="text-align: center; font-style: italic; color: goldenrod">
 							"I am very pleased to write this introduction."
 						</p>
 						<p
@@ -268,7 +292,7 @@
 								font-style: italic;
 								font-size: larger;
 								text-align: left;
-								color: white;
+								color: goldenrod;
 							"
 						>
 							"I arrived as Signal Officer of Eagle off Aden in January 1966 and

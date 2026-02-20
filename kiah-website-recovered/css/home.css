@@ -2,6 +2,7 @@ body.home-page {
 	background: url("../Images/Antigua/Nelsons/Antigua13.webp") no-repeat center
 		center fixed;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .home-content {
@@ -10,6 +11,10 @@ body.home-page {
 	justify-content: flex-start;
 	align-items: center;
 	min-height: 100vh;
+	padding-top: 120px; /* Space for fixed header */
+	padding-bottom: calc(100vh - 80px); /* Full viewport minus footer - allows content to scroll under header */
+	position: relative;
+	z-index: 100;
 }
 
 .text-box-container {
@@ -19,21 +24,44 @@ body.home-page {
 	border-radius: 8px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	margin: 20px 0;
-	position: fixed;
-	top: 150px;
-	left: 25%;
-	max-height: 60vh;
+	position: relative;
+	max-height: 70vh;
 	overflow-y: auto;
 	z-index: 100;
 }
 
-.text-box-container.scrolled {
-	position: relative;
-	top: auto;
-	left: auto;
-	margin: 20px auto;
-}
 hr {
 	border: none;
 	border-top: 4px solid black;
 }
+
+.nelson-callout {
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 4px double darkslategrey;
+	border-radius: 10px;
+	padding: 14px 18px;
+	margin: 4px 0;
+}
+
+.nelson-callout p {
+	margin: 0;
+	color: darkgoldenrod;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+	.text-box-container {
+		width: 90%;
+		max-height: 65vh;
+	}
+
+	.nelson-callout {
+		padding: 12px 14px;
+	}
+
+	.home-content {
+		padding-top: 100px;
+		padding-bottom: calc(100vh - 60px);
+	}

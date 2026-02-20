@@ -8,7 +8,7 @@ Write-Host ""
 Write-Host "=== HTML Image to Thumbnail Updater ===" -ForegroundColor Cyan
 Write-Host ""
 
-$rootPath = "f:\Kiah Website Backup\kiah-website-recovered"
+$rootPath = $PSScriptRoot
 
 if ($AllFiles) {
     $htmlFiles = Get-ChildItem -Path $rootPath -Filter "*.html" -File
@@ -37,7 +37,6 @@ foreach ($file in $htmlFiles) {
     Write-Host "Processing: $($file.Name)" -ForegroundColor Cyan
     
     $content = Get-Content $file.FullName -Raw -Encoding UTF8
-    $originalContent = $content
     $updated = 0
     
     # Pattern to match img tags with data-gallery attribute
@@ -45,12 +44,11 @@ foreach ($file in $htmlFiles) {
     
     $pattern = '<img\s+([^>]*?)src="(Images/[^"]+?\.(jpg|jpeg|png|gif|bmp|webp|JPG|JPEG|PNG|GIF|BMP|WEBP))"([^>]*?data-gallery[^>]*?)>'
     
-    $matches = [regex]::Matches($content, $pattern)
+    $imageMatches = [regex]::Matches($content, $pattern)
     
-    foreach ($match in $matches) {
+    foreach ($match in $imageMatches) {
         $beforeSrc = $match.Groups[1].Value
         $imagePath = $match.Groups[2].Value
-        $extension = $match.Groups[3].Value
         $afterSrc = $match.Groups[4].Value
         $fullMatch = $match.Value
         

@@ -1,0 +1,6 @@
+/* Trinidad Place Page */
+body.routes-page {
+	background: url("../Images/TrinidadTobago/Trinidad/Aerial view 1.webp")
+		no-repeat center center fixed;
+	background-size: cover;
+}

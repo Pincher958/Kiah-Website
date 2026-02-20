@@ -1,0 +1,6 @@
+/* Azores Sao Jorge Place Page */
+body.routes-page {
+	background: url("../Images/Azores/Terceira/Praia/001.webp") no-repeat center
+		center fixed;
+	background-size: cover;
+}

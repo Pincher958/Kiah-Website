@@ -1,9 +1,13 @@
 param(
-    [string]$ImagesPath = "f:\Kiah Website Backup\kiah-website-recovered\Images",
+    [string]$ImagesPath = "",
     [int]$ThumbnailWidth = 400,
     [int]$Quality = 80,
     [switch]$DryRun = $false
 )
+
+if (-not $ImagesPath) {
+    $ImagesPath = Join-Path $PSScriptRoot "Images"
+}
 
 Write-Host ""
 Write-Host "=== WebP Thumbnail Generator ===" -ForegroundColor Cyan
@@ -70,7 +74,7 @@ foreach ($file in $webpFiles) {
             Write-Host "Creating thumbnail: $($file.Name) " -NoNewline
             
             # Create thumbnail with resize
-            $result = & $magickCmd convert "$($file.FullName)" -resize "${ThumbnailWidth}x>" -quality $Quality "$thumbPath" 2>&1
+            & $magickCmd convert "$($file.FullName)" -resize "${ThumbnailWidth}x>" -quality $Quality "$thumbPath" 2>&1 | Out-Null
             
             if ($LASTEXITCODE -eq 0 -and (Test-Path $thumbPath)) {
                 $thumbSize = (Get-Item $thumbPath).Length

@@ -1,0 +1,6 @@
+/* Azores Faial Place Page */
+body.routes-page {
+	background: url("../Images/Azores/Fial/Horta/Azores2.webp") no-repeat center
+		center fixed;
+	background-size: cover;
+}

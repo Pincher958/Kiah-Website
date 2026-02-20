@@ -1,5 +1,6 @@
 body {
-	background: url("../Images/Atlantic/North Atlantic 1.webp") no-repeat center center fixed;
+	background: url("../Images/Atlantic/North Atlantic 1.webp") no-repeat center
+		center fixed;
 	background-size: cover;
 }
 
@@ -9,7 +10,10 @@ body {
 	justify-content: center;
 	gap: 20px;
 	padding: 30px 20px;
+	padding-top: 120px; /* Space for fixed header */
 	flex-wrap: wrap;
+	position: relative;
+	z-index: 100;
 }
 
 .route-button {
@@ -39,7 +43,14 @@ body {
 /* Route section styling */
 .route-section {
 	padding: 30px 20px;
+	padding-top: 120px; /* Space for fixed header */
+	padding-bottom: calc(
+		100vh - 80px
+	); /* Full viewport minus footer - allows content to scroll under header */
 	text-align: center;
+	position: relative;
+	z-index: 100;
+	min-height: 100vh;
 }
 
 .route-section h1 {
@@ -176,6 +187,7 @@ body {
 /* Place page two-column layout */
 .place-columns {
 	display: flex;
+	align-items: flex-start;
 	gap: 40px;
 	padding: 20px;
 	max-width: 1400px;
@@ -190,16 +202,13 @@ body {
 	border-radius: 8px;
 	border: 5px solid darkgoldenrod;
 	height: fit-content;
-	position: sticky;
-	top: 80px;
-	max-height: calc(100vh - 100px);
-	overflow-y: hidden;
 }
 
 .place-column-left h2 {
 	color: #123456;
 	margin-bottom: 15px;
 	font-size: 1.8rem;
+	margin-top: 0;
 }
 
 .place-column-left p {
@@ -214,10 +223,10 @@ body {
 	min-width: 300px;
 	max-height: calc(100vh - 120px);
 	overflow-y: auto;
-	padding-right: 10px;
 	border: 5px solid darkgoldenrod;
 	border-radius: 8px;
-	padding: 20px;
+	padding: 25px;
+	background: rgba(255, 255, 255, 0.95);
 }
 
 .place-column-right::-webkit-scrollbar {
@@ -247,15 +256,9 @@ body {
 
 	.place-column-left {
 		width: 100%;
-		position: relative;
-		top: 0;
-		max-height: none;
-		overflow-y: auto;
-		sticky: initial;
 	}
 
 	.place-column-right {
 		max-height: none;
-		overflow-y: auto;
 	}
 }
